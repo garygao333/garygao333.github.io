@@ -1,22 +1,60 @@
+
 <!DOCTYPE html>
+<html lang="en">
 <html>
 <head>
-  <title>Rock Paper Scissor</title>
-  <meta name="viewport" content="width=device-width,initial-scale=1" >
-  <link href="style.css" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Communist Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript">
+    function mouse_position(){
+    var e = window.event;
+
+    var posX = e.clientX;
+    var posY = e.clientY;
+
+    document.Form1.posx.value = posX;
+    document.Form1.posy.value = posY;
+
+    var t = setTimeout(mouse_position,100);
+    }
+</script>
 </head>
-<body>
-  <center><h1 id='h0'>Rock Paper Scissor</h1></center>
 
-  <center><p>Please make your choice below</p></center>
+<body class="light_theme">
+<center><h1 id = 'heading'>Communist Tic-Tac-Toe</h1></center>
 
-  <center><p id='p'></p></center>
+<hr id= l1>
+<hr id= l2>
 
-  <center><button id='b1'>Rock</button></center>
-  <center><button id='b2'>Paper</button></center>
-  <center><button id='b3'>Scissor</button></center>
 
-<center><p id='p1'>Developed by Gary Gao</p></center>
-  <script src="script.js"></script>
+<center><p id="p">Dare to risk your social credits?</p></center>
+
+<center><table>
+    <tr>
+        <td><button id='btn' class='btn'>Social Credit</button></td>
+        <td><button id='b2' class='btn'>Social Credit</button></td>
+        <td><button id='b3' class='btn'>Social Credit</button></td>
+    </tr>
+    <tr>
+        <td><button id='b4' class='btn'>Social Credit</button></td>
+        <td><button id='b5' class='btn'>Social Credit</button></td>
+        <td><button id='b6' class='btn'>Social Credit</button></td>
+    </tr>
+    <tr>
+        <td><button id='b7' class='btn'>Social Credit</button></td>
+        <td><button id='b8' class='btn'>Social Credit</button></td>
+        <td><button id='b9' class='btn'>Social Credit</button></td>
+    </tr>
+</table></center>
+
+  <center><img defer id='img' src='https://yt3.ggpht.com/ZTyY7OolrH4joFGmD4Yx6VKOtYKWv0DgnfYIouRKTGzVf_UjHzgrKHeIgrjdLRHPeY6YnhjOq2I=s900-c-k-c0x00ffffff-no-rj'></center>
+
+<center><p id='credits'>Created by Gary Gao and Sean Nigito</p></center>
+
+<script src="script.js"></script>
+<noscript> You need to enable Javascript to view the full site</noscript>
 </body>
 </html>
