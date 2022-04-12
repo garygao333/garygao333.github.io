@@ -1,35 +1,53 @@
+
+
+
 body {
-  background: blue;
-  color: #fff;
-  padding: 25px;
-  font-family: sans-serif;
+    font-family: monospace;
+    color: yellow;
+   background-image: url('https://yt3.ggpht.com/ZTyY7OolrH4joFGmD4Yx6VKOtYKWv0DgnfYIouRKTGzVf_UjHzgrKHeIgrjdLRHPeY6YnhjOq2I=s900-c-k-c0x00ffffff-no-rj');
 }
 
-#h0 {
+#heading {
   color: yellow;
-}
-#h1{
-  height: 200px;
-  width: 250px;
-}
-
-#h2 {
-  height: 300px;
-  width: 200px;
-}
-
-#h3 {
-  height: 200px;
-  width: 200px;
 }
 
 #p {
-  font-size: 36px;
   color: yellow;
-  font-weight: bold;
-  font-family: sans-serif;
 }
 
-#p1 {
-  font-family: Roboto;
+.light_theme {
+    color: #000000;
 }
+
+
+.btn {
+    border-width: 0px;
+    color: yellow;
+    background-color: var(--btn);
+    font-size: 36px;
+  border-color: yellow;
+  z-index: 9;
+}
+
+#btn {
+  z-index: 9;
+}
+
+
+#b9 {
+  z-index: 9;
+}
+
+
+#credits {
+  position: relative;
+  top: -250px;
+  color: yellow;
+}
+
+td {
+    border: 1px solid black;
+    height: 50px;
+    width: 50px;
+    z-index: 9;
+    }
