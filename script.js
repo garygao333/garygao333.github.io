@@ -1563,10 +1563,10 @@ function generateFirstGuess() {
   } else {
     console.log("nope, thats not it");
     console.log(array1);
-    }
     display.innerHTML = 'Sorry, thats not the answer';
     array1 = [];
   }
+}
 
 function generateSecondGuess() {
   let secondGuess = array1[0] + array1[1] + array1[2] + array1[3] + array1[4];
