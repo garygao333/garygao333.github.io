@@ -1,55 +1,54 @@
-<!DOCTYPE html>
-<html lang="en">
-<html>
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Communist Tic Tac Toe</title>
-    <link rel="stylesheet" href="style.css">
-    <script type="text/javascript">
-    function mouse_position(){
-    var e = window.event;
-
-    var posX = e.clientX;
-    var posY = e.clientY;
-
-    document.Form1.posx.value = posX;
-    document.Form1.posy.value = posY;
-
-    var t = setTimeout(mouse_position,100);
-    }
-</script>
-</head>
-
-<body class="light_theme">
-<center><h1 id = 'heading'>Communist Tic-Tac-Toe</h1></center>
-
-<hr id= l1>
-<hr id= l2>
-
-
-<center><p id="p">Created by Gary Gao and Sean Nigito</p></center>
-
-<center><table>
-    <tr>
-        <td><button id='btn' class='btn'>Social Credit</button></td>
-        <td><button id='b2' class='btn'>Social Credit</button></td>
-        <td><button id='b3' class='btn'>Social Credit</button></td>
-    </tr>
-    <tr>
-        <td><button id='b4' class='btn'>Social Credit</button></td>
-        <td><button id='b5' class='btn'>Social Credit</button></td>
-        <td><button id='b6' class='btn'>Social Credit</button></td>
-    </tr>
-    <tr>
-        <td><button id='b7' class='btn'>Social Credit</button></td>
-        <td><button id='b8' class='btn'>Social Credit</button></td>
-        <td><button id='b9' class='btn'>Social Credit</button></td>
-    </tr>
-</table></center>
-  
-<script src="script.js"></script>
-<noscript> You need to enable Javascript to view the full site</noscript>
-</body>
-</html>
+v.addEventListener('click', function onClick() {
+  let row1bool = false;
+let row2bool = false;
+let row3bool = false;
+let row4bool = false;
+let row5bool = false;
+let row6bool = false;
+  let variable = 0;
+  if (row1bool === true && variable===0 || num<=4) {
+    number = array[num];
+  console.log(num);
+  number.innerHTML = "V";
+  num = num+1;
+  array1.push('V');
+    variable = variable+1;
+  } else if (row2bool === true && variable===1 || num <= 4) {
+    number = array[num];
+  console.log(num);
+  number.innerHTML = "V";
+  num = num+1;
+  array1.push('V');
+    variable = variable + 1;
+  } else if (row3bool === true && variable === 2 || num <= 4) {
+    number = array[num];
+  console.log(num);
+  number.innerHTML = "V";
+  num = num+1;
+  array1.push('V');
+    variable = variable + 1;
+  } else if (row4bool === true && variable === 3 || num <= 4) {
+    number = array[num];
+  console.log(num);
+  number.innerHTML = "V";
+  num = num+1;
+  array1.push('V');
+    variable = variable + 1;
+  } else if (row5boool === true && variable === 4 || num <= 4) {
+    number = array[num];
+  console.log(num);
+  number.innerHTML = "V";
+  num = num+1;
+  array1.push('V');
+    variable = variable + 1;
+  } else if (row6bool === true && variable === 5 || num <= 4) {
+    number = array[num];
+  console.log(num);
+  number.innerHTML = "V";
+  num = num+1;
+  array1.push('V');
+    varuable = variable + 1;
+  } else {
+    console.log('dont, just dont');
+  }
+})
