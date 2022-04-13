@@ -1517,7 +1517,9 @@ del.addEventListener('click', function onClick() {
 
 //Game
 
-let word = 'DAIRY';
+let wordArr = ['DAIRY', 'CANAL', 'ZYGOT', 'BITCH', 'FUCKS', 'MOUSE'];
+let ivx = Math.floor(Math.random()*5);
+let word = wordArr[ivx];
 
 let heading = document.getElementById('heading');
 
