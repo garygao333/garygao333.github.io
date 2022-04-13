@@ -1555,13 +1555,18 @@ function generateFirstGuess() {
     display.innerHTML = "Congrats, thats the answer";
     array1 = [];
     array = [];
+    s1.style.background = 'green';
+    s2.style.background = 'green';
+    s3.style.background = 'green';
+    s4.style.background = 'green';
+    s5.style.background = 'green'; 
   } else {
     console.log("nope, thats not it");
     console.log(array1);
+    }
     display.innerHTML = 'Sorry, thats not the answer';
     array1 = [];
   }
-}
 
 function generateSecondGuess() {
   let secondGuess = array1[0] + array1[1] + array1[2] + array1[3] + array1[4];
@@ -1571,6 +1576,11 @@ function generateSecondGuess() {
     display.innerHTML = "Congrats, thats the answer";
     array1 = [];
     array = [];
+    s6.style.background = 'green';
+    s7.style.background = 'green';
+    s8.style.background = 'green';
+    s9.style.background = 'green';
+    s10.style.background = 'green'; 
   } else {
     console.log("nope, thats not it");
     console.log(array1);
@@ -1587,6 +1597,11 @@ function generateThirdGuess() {
     display.innerHTML = "Congrats, thats the answer";
     array1 = [];
     array = [];
+    s11.style.background = 'green';
+    s12.style.background = 'green';
+    s13.style.background = 'green';
+    s14.style.background = 'green';
+    s15.style.background = 'green'; 
   } else {
     console.log("nope, thats not it");
     console.log(array1);
@@ -1603,6 +1618,11 @@ function generateFourthGuess() {
     display.innerHTML = "Congrats, thats the answer";
     array1 = [];
     array = [];
+    s16.style.background = 'green';
+    s17.style.background = 'green';
+    s18.style.background = 'green';
+    s19.style.background = 'green';
+    s20.style.background = 'green'; 
   } else {
     console.log("nope, thats not it");
     console.log(array1);
@@ -1619,6 +1639,11 @@ function generateFifthGuess() {
     display.innerHTML = "Congrats, thats the answer";
     array1 = [];
     array = [];
+    s21.style.background = 'green';
+    s22.style.background = 'green';
+    s23.style.background = 'green';
+    s24.style.background = 'green';
+    s25.style.background = 'green'; 
   } else {
     console.log("nope, thats not it");
     console.log(array1);
@@ -1636,6 +1661,11 @@ function generateSixthGuess() {
     display.innerHTML = "Congrats, thats the answer";
     array1 = [];
     array = [];
+    s26.style.background = 'green';
+    s27.style.background = 'green';
+    s28.style.background = 'green';
+    s29.style.background = 'green';
+    s30.style.background = 'green'; 
   } else {
     console.log("nope, thats not it");
     console.log(array1);
