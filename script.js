@@ -1547,6 +1547,9 @@ function determineRow() {
 }
 }
 
+let wordArray = word.split("");
+console.log(wordArray);
+
 function generateFirstGuess() {
   let firstGuess = array1[0] + array1[1] + array1[2] + array1[3] + array1[4];
   if (firstGuess === word) {
@@ -1561,15 +1564,20 @@ function generateFirstGuess() {
     s4.style.background = 'green';
     s5.style.background = 'green'; 
   } else {
+    let arrays = [s1, s2, s3, s4, s5];
+        for(i=0; i<=4; i++) {
+      if (array1[i] === word[i]) {
+        arrays[i].style.background = 'green';
+      } else if (wordArray.includes(array1[i]) === true) {
+        arrays[i].style.background = 'yellow';
+      } else {
+        arrays[i].style.background = 'gray';
+      }
+    }
     console.log("nope, thats not it");
     console.log(array1);
     display.innerHTML = 'Sorry, thats not the answer';
     array1 = [];
-    s1.style.background = 'gray';
-    s2.style.background = 'gray';
-    s3.style.background = 'gray';
-    s4.style.background = 'gray';
-    s5.style.background = 'gray'; 
   }
 }
 
@@ -1587,15 +1595,20 @@ function generateSecondGuess() {
     s9.style.background = 'green';
     s10.style.background = 'green'; 
   } else {
+        let arrays2 = [s6, s7, s8, s9, s10];
+        for(i=0; i<=4; i++) {
+      if (array1[i] === word[i]) {
+        arrays2[i].style.background = 'green';
+      } else if (wordArray.includes(array1[i]) === true) {
+        arrays2[i].style.background = 'yellow';
+      } else {
+        arrays2[i].style.background = 'gray';
+      }
+    }
     console.log("nope, thats not it");
     console.log(array1);
     display.innerHTML = 'Sorry, thats not the answer';
     array1 = [];
-    s6.style.background = 'gray';
-    s7.style.background = 'gray';
-    s8.style.background = 'gray';
-    s9.style.background = 'gray';
-    s10.style.background = 'gray'; 
   }
 }
 
@@ -1613,15 +1626,20 @@ function generateThirdGuess() {
     s14.style.background = 'green';
     s15.style.background = 'green'; 
   } else {
+        let arrays3 = [s11, s12, s13, s14, s15];
+        for(i=0; i<=4; i++) {
+      if (array1[i] === word[i]) {
+        arrays3[i].style.background = 'green';
+      } else if (wordArray.includes(array1[i]) === true) {
+        arrays3[i].style.background = 'yellow';
+      } else {
+        arrays3[i].style.background = 'gray';
+      }
+    }
     console.log("nope, thats not it");
     console.log(array1);
     display.innerHTML = 'Sorry, thats not the answer';
     array1 = [];
-    s11.style.background = 'gray';
-    s12.style.background = 'gray';
-    s13.style.background = 'gray';
-    s14.style.background = 'gray';
-    s15.style.background = 'gray'; 
   }
 }
 
@@ -1639,15 +1657,20 @@ function generateFourthGuess() {
     s19.style.background = 'green';
     s20.style.background = 'green'; 
   } else {
+        let arrays4 = [s16, s17, s18, s19, s20];
+        for(i=0; i<=4; i++) {
+      if (array1[i] === word[i]) {
+        arrays4[i].style.background = 'green';
+      } else if (wordArray.includes(array1[i]) === true) {
+        arrays4[i].style.background = 'yellow';
+      } else {
+        arrays4[i].style.background = 'gray';
+      }
+    }
     console.log("nope, thats not it");
     console.log(array1);
     display.innerHTML = 'Sorry, thats not the answer';
     array1 = [];
-    s16.style.background = 'gray';
-    s17.style.background = 'gray';
-    s18.style.background = 'gray';
-    s19.style.background = 'gray';
-    s20.style.background = 'gray'; 
   }
 }
 
@@ -1665,15 +1688,20 @@ function generateFifthGuess() {
     s24.style.background = 'green';
     s25.style.background = 'green'; 
   } else {
+        let arrays5 = [s21, s22, s23, s24, s25];
+        for(i=0; i<=4; i++) {
+      if (array1[i] === word[i]) {
+        arrays5[i].style.background = 'green';
+      } else if (wordArray.includes(array1[i]) === true) {
+        arrays5[i].style.background = 'yellow';
+      } else {
+        arrays5[i].style.background = 'gray';
+      }
+    }
     console.log("nope, thats not it");
     console.log(array1);
     display.innerHTML = 'Sorry, thats not the answer';
     array1 = [];
-    s21.style.background = 'gray';
-    s22.style.background = 'gray';
-    s23.style.background = 'gray';
-    s24.style.background = 'gray';
-    s25.style.background = 'gray'; 
   }
 }
 
@@ -1692,16 +1720,21 @@ function generateSixthGuess() {
     s29.style.background = 'green';
     s30.style.background = 'green'; 
   } else {
+        let arrays6 = [s26, s27, s28, s29, s30];
+        for(i=0; i<=4; i++) {
+      if (array1[i] === word[i]) {
+        arrays6[i].style.background = 'green';
+      } else if (wordArray.includes(array1[i]) === true) {
+        arrays6[i].style.background = 'yellow';
+      } else {
+        arrays6[i].style.background = 'gray';
+      }
+    }
     console.log("nope, thats not it");
     console.log(array1);
     display.innerHTML = 'Sorry, thats not the answer';
     array1 = [];
     display.innerHTML = "You Lose, the word is " + word;
-    s26.style.background = 'gray';
-    s27.style.background = 'gray';
-    s28.style.background = 'gray';
-    s29.style.background = 'gray';
-    s30.style.background = 'gray'; 
     }
 }
 
