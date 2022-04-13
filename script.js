@@ -1671,7 +1671,8 @@ function generateSixthGuess() {
     console.log(array1);
     display.innerHTML = 'Sorry, thats not the answer';
     array1 = [];
-  }
+    display.innerHTML = "You Lose, the word is " + word;
+    }
 }
 
 //disable the varubael, if that does not work, and youhave tried the other varibale, you might jsut have to resort to the cloning(prob increase length by antoehr 100); 
@@ -1781,11 +1782,10 @@ enter.addEventListener('click', function guessGuess(){
     console.log(row);
     console.log(array1);
     row6bool = true;
-    display.innerHTML = "You Lose, the word is " + word;
-    }
   } else {
     //display.innerHTML = "Please Enter the full row";
     console.log("enter a valid word");
+  }
   }
 }); 
 
