@@ -1,54 +1,103 @@
-v.addEventListener('click', function onClick() {
-  let row1bool = false;
-let row2bool = false;
-let row3bool = false;
-let row4bool = false;
-let row5bool = false;
-let row6bool = false;
-  let variable = 0;
-  if (row1bool === true && variable===0 || num<=4) {
-    number = array[num];
-  console.log(num);
-  number.innerHTML = "V";
-  num = num+1;
-  array1.push('V');
-    variable = variable+1;
-  } else if (row2bool === true && variable===1 || num <= 4) {
-    number = array[num];
-  console.log(num);
-  number.innerHTML = "V";
-  num = num+1;
-  array1.push('V');
-    variable = variable + 1;
-  } else if (row3bool === true && variable === 2 || num <= 4) {
-    number = array[num];
-  console.log(num);
-  number.innerHTML = "V";
-  num = num+1;
-  array1.push('V');
-    variable = variable + 1;
-  } else if (row4bool === true && variable === 3 || num <= 4) {
-    number = array[num];
-  console.log(num);
-  number.innerHTML = "V";
-  num = num+1;
-  array1.push('V');
-    variable = variable + 1;
-  } else if (row5boool === true && variable === 4 || num <= 4) {
-    number = array[num];
-  console.log(num);
-  number.innerHTML = "V";
-  num = num+1;
-  array1.push('V');
-    variable = variable + 1;
-  } else if (row6bool === true && variable === 5 || num <= 4) {
-    number = array[num];
-  console.log(num);
-  number.innerHTML = "V";
-  num = num+1;
-  array1.push('V');
-    varuable = variable + 1;
-  } else {
-    console.log('dont, just dont');
-  }
-})
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Wordle</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<center><h1 id='heading'>Wordle</h1></center>
+
+  <center><p id='display'></p></center>
+
+<body>
+  <center><table>
+    <tr id='row1'>
+        <td id='s1'></td>
+        <td id='s2'></td>
+        <td id='s3'></td>
+        <td id='s4'></td>
+        <td id='s5'></td>
+    </tr>
+    <tr id='row2'>
+        <td id='s6'></td>
+        <td id='s7'></td>
+        <td id='s8'></td>
+        <td id='s9'></td>
+        <td id='s10'></td>
+    </tr>
+    <tr id='row3'>
+        <td id='s11'></td>
+        <td id='s12'></td>
+        <td id='s13'></td>
+        <td id='s14'></td>
+        <td id='s15'></td>
+    </tr>
+    <tr id='row4'>
+      <td id='s16'></td>
+      <td id='s17'></td>
+      <td id='s18'></td>
+      <td id='s19'></td>
+      <td id='s20'></td>
+    </tr>
+    <tr id='row5'>
+      <td id='s21'></td>
+      <td id='s22'></td>
+      <td id='s23'></td>
+      <td id='s24'></td>
+      <td id='s25'></td>
+    </tr>
+    <tr id='row6'>
+      <td id='s26'></td>
+      <td id = 's27'></td>
+      <td id='s28'></td>
+      <td id='s29'></td>
+      <td id='s30'></td>
+    </tr>
+</table></center>
+
+
+ <center><div>
+        <div>
+            <button id='q'>q</button>
+            <button id='w'>w</button>
+            <button id='e'>e</button>
+            <button id='r'>r</button>
+            <button id='t'>t</button>
+            <button id='y'>y</button>
+            <button id='u'>u</button>
+            <button id='i'>i</button>
+            <button id='o'>o</button>
+            <button id='p'>p</button>
+        </div>
+        <div>
+            <button id='a'>a</button>
+            <button id='s'>s</button>
+            <button id='d'>d</button>
+            <button id='f'>f</button>
+            <button id='g'>g</button>
+            <button id='h'>h</button>
+            <button id='j'>j</button>
+            <button id='k'>k</button>
+            <button id='l'>l</button>
+        </div>
+        <div>
+            <button id='Del'>Del</button>
+            <button id='z'>z</button>
+            <button id='x'>x</button>
+            <button id='c'>c</button>
+            <button id='v'>v</button>
+            <button id='b'>b</button>
+            <button id='n'>n</button>
+            <button id='m'>m</button>
+            <button id='Enter'>Enter</button>
+        </div>
+    </div></center>
+
+  <center><p>Created By Gary Gao</p></center>
+  <script src="script.js"></script>
+</body>
+
+</html>
