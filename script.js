@@ -1,554 +1,1757 @@
-'use strict'
+let q = document.getElementById('q');
+let w = document.getElementById('w');
+let e = document.getElementById('e');
+let r = document.getElementById('r');
+let t = document.getElementById('t');
+let y = document.getElementById('y');
+let u = document.getElementById('u');
+let i = document.getElementById('i');
+let o = document.getElementById('o');
+let p = document.getElementById('p');
+let a = document.getElementById('a');
+let s = document.getElementById('s');
+let d = document.getElementById('d');
+let f = document.getElementById('f');
+let g = document.getElementById('g');
+let h = document.getElementById('h');
+let j = document.getElementById('j');
+let k = document.getElementById('k');
+let l = document.getElementById('l');
+let z = document.getElementById('z');
+let x = document.getElementById('x');
+let c = document.getElementById('c');
+let v = document.getElementById('v');
+let b = document.getElementById('b');
+let n = document.getElementById('n');
+let m = document.getElementById('m');
+let del = document.getElementById('Del');
+let enter = document.getElementById('Enter');
 
-const btn = document.getElementById('btn');
 
-var turn = true;
+let row1 = document.getElementById('row1');
+let row2 = document.getElementById('row2');
+let row3 = document.getElementById('row3');
+let row4 = document.getElementById('row4');
+let row5 = document.getElementById('row5');
+let row6 = document.getElementById('row6');
 
-// 0 corresponds to not sleected. 1 is black. 2 is white.
+let s1 = document.getElementById('s1');
+let s2 = document.getElementById('s2');
+let s3 = document.getElementById('s3');
+let s4 = document.getElementById('s4');
+let s5 = document.getElementById('s5');
+let s6 = document.getElementById('s6');
+let s7 = document.getElementById('s7');
+let s8 = document.getElementById('s8');
+let s9 = document.getElementById('s9');
+let s10 = document.getElementById('s10');
+let s11 = document.getElementById('s11');
+let s12 = document.getElementById('s12');
+let s13 = document.getElementById('s13');
+let s14 = document.getElementById('s14');
+let s15 = document.getElementById('s15');
+let s16 = document.getElementById('s16');
+let s17 = document.getElementById('s17');
+let s18 = document.getElementById('s18');
+let s19 = document.getElementById('s19');
+let s20 = document.getElementById('s20');
+let s21 = document.getElementById('s21');
+let s22 = document.getElementById('s22');
+let s23 = document.getElementById('s23');
+let s24 = document.getElementById('s24');
+let s25 = document.getElementById('s25');
+let s26 = document.getElementById('s26');
+let s27 = document.getElementById('s27');
+let s28 = document.getElementById('s28');
+let s29 = document.getElementById('s29');
+let s30 = document.getElementById('s30');
+let array = [s1, s2, s3, s4, s5, s6, s7, s8, s9, s10, s11, s12, s13, s14, s15, s16, s17, s18, s19, s20, s21, s22, s23, s24, s25, s26, s27, s28, s29, s30];
+let num = 0;
+let array1 = [];
 
-
-var index = document.getElementById('img');
-
-
-
-let b11 = 0;
-btn.addEventListener('click', function onClick() {
-  if (turn === true) {
-  btn.style.backgroundColor = 'black';
-  btn.style.color = 'white';
-  turn = false;
-  b11 = 1;
-  winGame();
-  btn.removeEventListener('click', onClick);
+q.addEventListener('click', function onClick() {
+  let row1bool = false;
+let row2bool = false;
+let row3bool = false;
+let row4bool = false;
+let row5bool = false;
+let row6bool = false;
+  let variable = 0;
+  if (row1bool === true && variable===0 || num<=4) {
+    number = array[num];
+  console.log(num);
+  number.innerHTML = "Q";
+  num = num+1;
+  array1.push('Q');
+    variable = variable+1;
+  } else if (row2bool === true && variable===1 || num <= 4) {
+    number = array[num];
+  console.log(num);
+  number.innerHTML = "Q";
+  num = num+1;
+  array1.push('Q');
+    variable = variable + 1;
+  } else if (row3bool === true && variable === 2 || num <= 4) {
+    number = array[num];
+  console.log(num);
+  number.innerHTML = "Q";
+  num = num+1;
+  array1.push('Q');
+    variable = variable + 1;
+  } else if (row4bool === true && variable === 3 || num <= 4) {
+    number = array[num];
+  console.log(num);
+  number.innerHTML = "Q";
+  num = num+1;
+  array1.push('Q');
+    variable = variable + 1;
+  } else if (row5boool === true && variable === 4 || num <= 4) {
+    number = array[num];
+  console.log(num);
+  number.innerHTML = "Q";
+  num = num+1;
+  array1.push('Q');
+    variable = variable + 1;
+  } else if (row6bool === true && variable === 5 || num <= 4) {
+    number = array[num];
+  console.log(num);
+  number.innerHTML = "Q";
+  num = num+1;
+  array1.push('Q');
+    varuable = variable + 1;
   } else {
-    btn.style.backgroundColor = 'white';
-    btn.style.color = 'black';
-    turn = true;
-    b11 = 2;
-    winGame();
-    btn.removeEventListener('click', onClick);
+    console.log('dont, just dont');
   }
-});
+})
 
-const b2 = document.getElementById('b2');
-let b12 = 0;
-b2.addEventListener('click', function onClick() {
-  if (turn === true) {
-  b2.style.backgroundColor = 'black';
-  b2.style.color = 'white';
-  turn = false;
-  b12 = 1;
-    winGame();
-    b2.removeEventListener('click', onClick);
+w.addEventListener('click', function onClick() {
+  let row1bool = false;
+let row2bool = false;
+let row3bool = false;
+let row4bool = false;
+let row5bool = false;
+let row6bool = false;
+  let variable = 0;
+  if (row1bool === true && variable===0 || num<=4) {
+    number = array[num];
+  console.log(num);
+  number.innerHTML = "W";
+  num = num+1;
+  array1.push('W');
+    variable = variable+1;
+  } else if (row2bool === true && variable===1 || num <= 4) {
+    number = array[num];
+  console.log(num);
+  number.innerHTML = "w";
+  num = num+1;
+  array1.push('W');
+    variable = variable + 1;
+  } else if (row3bool === true && variable === 2 || num <= 4) {
+    number = array[num];
+  console.log(num);
+  number.innerHTML = "W";
+  num = num+1;
+  array1.push('W');
+    variable = variable + 1;
+  } else if (row4bool === true && variable === 3 || num <= 4) {
+    number = array[num];
+  console.log(num);
+  number.innerHTML = "W";
+  num = num+1;
+  array1.push('W');
+    variable = variable + 1;
+  } else if (row5boool === true && variable === 4 || num <= 4) {
+    number = array[num];
+  console.log(num);
+  number.innerHTML = "W";
+  num = num+1;
+  array1.push('W');
+    variable = variable + 1;
+  } else if (row6bool === true && variable === 5 || num <= 4) {
+    number = array[num];
+  console.log(num);
+  number.innerHTML = "W";
+  num = num+1;
+  array1.push('W');
+    varuable = variable + 1;
   } else {
-    b2.style.backgroundColor = 'white';
-    b2.style.color = 'black';
-    turn = true;
-    b12 = 2;
-    winGame();
-    b2.removeEventListener('click', onClick);
+    console.log('dont, just dont');
   }
+})
 
-});
-//rgb (20, 30, 50);
-
-const b3 = document.getElementById('b3');
-let b13 = 0;
-b3.addEventListener('click', function onClick() {
-  if (turn === true) {
-  b3.style.backgroundColor = 'black';
-  b3.style.color = 'white';
-    turn = false;
-    b13 = 1;
-    winGame();
-    b3.removeEventListener('click', onClick);
+e.addEventListener('click', function onClick() {
+  let row1bool = false;
+let row2bool = false;
+let row3bool = false;
+let row4bool = false;
+let row5bool = false;
+let row6bool = false;
+  let variable = 0;
+  if (row1bool === true && variable===0 || num<=4) {
+    number = array[num];
+  console.log(num);
+  number.innerHTML = "E";
+  num = num+1;
+  array1.push('E');
+    variable = variable+1;
+  } else if (row2bool === true && variable===1 || num <= 4) {
+    number = array[num];
+  console.log(num);
+  number.innerHTML = "E";
+  num = num+1;
+  array1.push('E');
+    variable = variable + 1;
+  } else if (row3bool === true && variable === 2 || num <= 4) {
+    number = array[num];
+  console.log(num);
+  number.innerHTML = "E";
+  num = num+1;
+  array1.push('E');
+    variable = variable + 1;
+  } else if (row4bool === true && variable === 3 || num <= 4) {
+    number = array[num];
+  console.log(num);
+  number.innerHTML = "E";
+  num = num+1;
+  array1.push('E');
+    variable = variable + 1;
+  } else if (row5boool === true && variable === 4 || num <= 4) {
+    number = array[num];
+  console.log(num);
+  number.innerHTML = "E";
+  num = num+1;
+  array1.push('E');
+    variable = variable + 1;
+  } else if (row6bool === true && variable === 5 || num <= 4) {
+    number = array[num];
+  console.log(num);
+  number.innerHTML = "E";
+  num = num+1;
+  array1.push('E');
+    varuable = variable + 1;
   } else {
-    b3.style.backgroundColor = 'white';
-    b3.style.color = 'black';
-    turn = true;
-    b13 = 2;
-    winGame();
-    b3.removeEventListener('click', onClick);
+    console.log('dont, just dont');
   }
+})
 
-});
-
-
-const b4 = document.getElementById('b4');
-let b14 = 0;
-b4.addEventListener('click', function onClick() {
-  if (turn === true) {
-  b4.style.backgroundColor = 'black';
-  b4.style.color = 'white';
-  turn = false;
-  b14 = 1;
-    winGame();
-    b4.removeEventListener('click', onClick);
+r.addEventListener('click', function onClick() {
+  let row1bool = false;
+let row2bool = false;
+let row3bool = false;
+let row4bool = false;
+let row5bool = false;
+let row6bool = false;
+  let variable = 0;
+  if (row1bool === true && variable===0 || num<=4) {
+    number = array[num];
+  console.log(num);
+  number.innerHTML = "R";
+  num = num+1;
+  array1.push('R');
+    variable = variable+1;
+  } else if (row2bool === true && variable===1 || num <= 4) {
+    number = array[num];
+  console.log(num);
+  number.innerHTML = "R";
+  num = num+1;
+  array1.push('R');
+    variable = variable + 1;
+  } else if (row3bool === true && variable === 2 || num <= 4) {
+    number = array[num];
+  console.log(num);
+  number.innerHTML = "R";
+  num = num+1;
+  array1.push('R');
+    variable = variable + 1;
+  } else if (row4bool === true && variable === 3 || num <= 4) {
+    number = array[num];
+  console.log(num);
+  number.innerHTML = "R";
+  num = num+1;
+  array1.push('R');
+    variable = variable + 1;
+  } else if (row5boool === true && variable === 4 || num <= 4) {
+    number = array[num];
+  console.log(num);
+  number.innerHTML = "R";
+  num = num+1;
+  array1.push('R');
+    variable = variable + 1;
+  } else if (row6bool === true && variable === 5 || num <= 4) {
+    number = array[num];
+  console.log(num);
+  number.innerHTML = "R";
+  num = num+1;
+  array1.push('R');
+    varuable = variable + 1;
   } else {
-    b4.style.backgroundColor = 'white';
-    b4.style.color = 'black';
-    turn = true;
-    b14 = 2;
-    winGame();
-    b4.removeEventListener('click', onClick);
+    console.log('dont, just dont');
   }
+})
 
-});
-
-
-const b5 = document.getElementById('b5');
-let b15 = 0;
-b5.addEventListener('click', function onClick() {
-  if (turn === true) {
-  b5.style.backgroundColor = 'black';
-  b5.style.color = 'white';
-  turn = false;
-  b15 = 1;
-    winGame();
-    b5.removeEventListener('click', onClick);
+t.addEventListener('click', function onClick() {
+  let row1bool = false;
+let row2bool = false;
+let row3bool = false;
+let row4bool = false;
+let row5bool = false;
+let row6bool = false;
+  let variable = 0;
+  if (row1bool === true && variable===0 || num<=4) {
+    number = array[num];
+  console.log(num);
+  number.innerHTML = "T";
+  num = num+1;
+  array1.push('T');
+    variable = variable+1;
+  } else if (row2bool === true && variable===1 || num <= 4) {
+    number = array[num];
+  console.log(num);
+  number.innerHTML = "T";
+  num = num+1;
+  array1.push('T');
+    variable = variable + 1;
+  } else if (row3bool === true && variable === 2 || num <= 4) {
+    number = array[num];
+  console.log(num);
+  number.innerHTML = "T";
+  num = num+1;
+  array1.push('T');
+    variable = variable + 1;
+  } else if (row4bool === true && variable === 3 || num <= 4) {
+    number = array[num];
+  console.log(num);
+  number.innerHTML = "T";
+  num = num+1;
+  array1.push('T');
+    variable = variable + 1;
+  } else if (row5boool === true && variable === 4 || num <= 4) {
+    number = array[num];
+  console.log(num);
+  number.innerHTML = "T";
+  num = num+1;
+  array1.push('T');
+    variable = variable + 1;
+  } else if (row6bool === true && variable === 5 || num <= 4) {
+    number = array[num];
+  console.log(num);
+  number.innerHTML = "T";
+  num = num+1;
+  array1.push('T');
+    varuable = variable + 1;
   } else {
-    b5.style.backgroundColor = 'white';
-    b5.style.color = 'black';
-    turn = true;
-    b15 = 2;
-    winGame();
-    b5.removeEventListener('click', onClick);
+    console.log('dont, just dont');
   }
+})
 
-});
-
-
-const b6 = document.getElementById('b6');
-let b16 = 0;
-b6.addEventListener('click', function onClick() {
-  if (turn === true) {
-  b6.style.backgroundColor = 'black';
-  b6.style.color = 'white';
-  turn = false;
-  b16 = 1;
-    winGame();
-    b6.removeEventListener('click', onClick);
+y.addEventListener('click', function onClick() {
+  let row1bool = false;
+let row2bool = false;
+let row3bool = false;
+let row4bool = false;
+let row5bool = false;
+let row6bool = false;
+  let variable = 0;
+  if (row1bool === true && variable===0 || num<=4) {
+    number = array[num];
+  console.log(num);
+  number.innerHTML = "Y";
+  num = num+1;
+  array1.push('Y');
+    variable = variable+1;
+  } else if (row2bool === true && variable===1 || num <= 4) {
+    number = array[num];
+  console.log(num);
+  number.innerHTML = "Y";
+  num = num+1;
+  array1.push('Y');
+    variable = variable + 1;
+  } else if (row3bool === true && variable === 2 || num <= 4) {
+    number = array[num];
+  console.log(num);
+  number.innerHTML = "Y";
+  num = num+1;
+  array1.push('Y');
+    variable = variable + 1;
+  } else if (row4bool === true && variable === 3 || num <= 4) {
+    number = array[num];
+  console.log(num);
+  number.innerHTML = "Y";
+  num = num+1;
+  array1.push('Y');
+    variable = variable + 1;
+  } else if (row5boool === true && variable === 4 || num <= 4) {
+    number = array[num];
+  console.log(num);
+  number.innerHTML = "Y";
+  num = num+1;
+  array1.push('Y');
+    variable = variable + 1;
+  } else if (row6bool === true && variable === 5 || num <= 4) {
+    number = array[num];
+  console.log(num);
+  number.innerHTML = "Y";
+  num = num+1;
+  array1.push('Y');
+    varuable = variable + 1;
   } else {
-    b6.style.backgroundColor = 'white';
-    b6.style.color = 'black';
-    turn = true;
-    b16 = 2;
-    winGame();
-    b6.removeEventListener('click', onClick);
+    console.log('dont, just dont');
   }
+})
 
-});
-
-
-const b7 = document.getElementById('b7');
-let b17 = 0;
-b7.addEventListener('click', function onClick() {
-  if (turn === true) {
-  b7.style.backgroundColor = 'black';
-  b7.style.color = 'white';
-  turn = false;
-  b17 = 1;
-    winGame();
-    b7.removeEventListener('click', onClick);
+u.addEventListener('click', function onClick() {
+  let row1bool = false;
+let row2bool = false;
+let row3bool = false;
+let row4bool = false;
+let row5bool = false;
+let row6bool = false;
+  let variable = 0;
+  if (row1bool === true && variable===0 || num<=4) {
+    number = array[num];
+  console.log(num);
+  number.innerHTML = "U";
+  num = num+1;
+  array1.push('U');
+    variable = variable+1;
+  } else if (row2bool === true && variable===1 || num <= 4) {
+    number = array[num];
+  console.log(num);
+  number.innerHTML = "U";
+  num = num+1;
+  array1.push('U');
+    variable = variable + 1;
+  } else if (row3bool === true && variable === 2 || num <= 4) {
+    number = array[num];
+  console.log(num);
+  number.innerHTML = "U";
+  num = num+1;
+  array1.push('U');
+    variable = variable + 1;
+  } else if (row4bool === true && variable === 3 || num <= 4) {
+    number = array[num];
+  console.log(num);
+  number.innerHTML = "U";
+  num = num+1;
+  array1.push('U');
+    variable = variable + 1;
+  } else if (row5boool === true && variable === 4 || num <= 4) {
+    number = array[num];
+  console.log(num);
+  number.innerHTML = "U";
+  num = num+1;
+  array1.push('U');
+    variable = variable + 1;
+  } else if (row6bool === true && variable === 5 || num <= 4) {
+    number = array[num];
+  console.log(num);
+  number.innerHTML = "U";
+  num = num+1;
+  array1.push('U');
+    varuable = variable + 1;
   } else {
-    b7.style.backgroundColor = 'white';
-    b7.style.color = 'black';
-    turn = true;
-    b17 = 2;
-    winGame();
-    b7.removeEventListener('click', onClick);
+    console.log('dont, just dont');
   }
+})
 
-});
-
-
-const b8 = document.getElementById('b8');
-let b18 = 0;
-b8.addEventListener('click', function onClick() {
-  if (turn === true) {
-  b8.style.backgroundColor = 'black';
-  b8.style.color = 'white';
-  turn = false;
-  b18 = 1;
-    winGame();
-    b8.removeEventListener('click', onClick);
+i.addEventListener('click', function onClick() {
+  let row1bool = false;
+let row2bool = false;
+let row3bool = false;
+let row4bool = false;
+let row5bool = false;
+let row6bool = false;
+  let variable = 0;
+  if (row1bool === true && variable===0 || num<=4) {
+    number = array[num];
+  console.log(num);
+  number.innerHTML = "I";
+  num = num+1;
+  array1.push('I');
+    variable = variable+1;
+  } else if (row2bool === true && variable===1 || num <= 4) {
+    number = array[num];
+  console.log(num);
+  number.innerHTML = "I";
+  num = num+1;
+  array1.push('I');
+    variable = variable + 1;
+  } else if (row3bool === true && variable === 2 || num <= 4) {
+    number = array[num];
+  console.log(num);
+  number.innerHTML = "I";
+  num = num+1;
+  array1.push('I');
+    variable = variable + 1;
+  } else if (row4bool === true && variable === 3 || num <= 4) {
+    number = array[num];
+  console.log(num);
+  number.innerHTML = "I";
+  num = num+1;
+  array1.push('I');
+    variable = variable + 1;
+  } else if (row5boool === true && variable === 4 || num <= 4) {
+    number = array[num];
+  console.log(num);
+  number.innerHTML = "I";
+  num = num+1;
+  array1.push('I');
+    variable = variable + 1;
+  } else if (row6bool === true && variable === 5 || num <= 4) {
+    number = array[num];
+  console.log(num);
+  number.innerHTML = "I";
+  num = num+1;
+  array1.push('I');
+    varuable = variable + 1;
   } else {
-    b8.style.backgroundColor = 'white';
-    b8.style.color = 'black';
-    turn = true;
-    b18 = 2;
-    winGame();
-    b8.removeEventListener('click', onClick);
+    console.log('dont, just dont');
   }
+})
 
-});
-
-
-const b9 = document.getElementById('b9');
-let b19 = 0;
-b9.addEventListener('click', function onClick() {
-  if (turn === true) {
-  b9.style.backgroundColor = 'black';
-  b9.style.color = 'white';
-  turn = false;
-  b19 = 1;
-    winGame();
-    b9.removeEventListener('click', onClick);
+o.addEventListener('click', function onClick() {
+  let row1bool = false;
+let row2bool = false;
+let row3bool = false;
+let row4bool = false;
+let row5bool = false;
+let row6bool = false;
+  let variable = 0;
+  if (row1bool === true && variable===0 || num<=4) {
+    number = array[num];
+  console.log(num);
+  number.innerHTML = "O";
+  num = num+1;
+  array1.push('O');
+    variable = variable+1;
+  } else if (row2bool === true && variable===1 || num <= 4) {
+    number = array[num];
+  console.log(num);
+  number.innerHTML = "O";
+  num = num+1;
+  array1.push('O');
+    variable = variable + 1;
+  } else if (row3bool === true && variable === 2 || num <= 4) {
+    number = array[num];
+  console.log(num);
+  number.innerHTML = "O";
+  num = num+1;
+  array1.push('O');
+    variable = variable + 1;
+  } else if (row4bool === true && variable === 3 || num <= 4) {
+    number = array[num];
+  console.log(num);
+  number.innerHTML = "O";
+  num = num+1;
+  array1.push('O');
+    variable = variable + 1;
+  } else if (row5boool === true && variable === 4 || num <= 4) {
+    number = array[num];
+  console.log(num);
+  number.innerHTML = "O";
+  num = num+1;
+  array1.push('O');
+    variable = variable + 1;
+  } else if (row6bool === true && variable === 5 || num <= 4) {
+    number = array[num];
+  console.log(num);
+  number.innerHTML = "V";
+  num = num+1;
+  array1.push('V');
+    varuable = variable + 1;
   } else {
-    b9.style.backgroundColor = 'white';
-    b9.style.color = 'black';
-    turn = true;
-    b19 = 2;
-    winGame();
-    b9.removeEventListener('click', onClick);
+    console.log('dont, just dont');
   }
-});
+})
+
+p.addEventListener('click', function onClick() {
+  let row1bool = false;
+let row2bool = false;
+let row3bool = false;
+let row4bool = false;
+let row5bool = false;
+let row6bool = false;
+  let variable = 0;
+  if (row1bool === true && variable===0 || num<=4) {
+    number = array[num];
+  console.log(num);
+  number.innerHTML = "P";
+  num = num+1;
+  array1.push('P');
+    variable = variable+1;
+  } else if (row2bool === true && variable===1 || num <= 4) {
+    number = array[num];
+  console.log(num);
+  number.innerHTML = "P";
+  num = num+1;
+  array1.push('P');
+    variable = variable + 1;
+  } else if (row3bool === true && variable === 2 || num <= 4) {
+    number = array[num];
+  console.log(num);
+  number.innerHTML = "P";
+  num = num+1;
+  array1.push('P');
+    variable = variable + 1;
+  } else if (row4bool === true && variable === 3 || num <= 4) {
+    number = array[num];
+  console.log(num);
+  number.innerHTML = "P";
+  num = num+1;
+  array1.push('P');
+    variable = variable + 1;
+  } else if (row5boool === true && variable === 4 || num <= 4) {
+    number = array[num];
+  console.log(num);
+  number.innerHTML = "P";
+  num = num+1;
+  array1.push('P');
+    variable = variable + 1;
+  } else if (row6bool === true && variable === 5 || num <= 4) {
+    number = array[num];
+  console.log(num);
+  number.innerHTML = "P";
+  num = num+1;
+  array1.push('P');
+    varuable = variable + 1;
+  } else {
+    console.log('dont, just dont');
+  }
+})
+
+a.addEventListener('click', function onClick() {
+  let row1bool = false;
+let row2bool = false;
+let row3bool = false;
+let row4bool = false;
+let row5bool = false;
+let row6bool = false;
+  let variable = 0;
+  if (row1bool === true && variable===0 || num<=4) {
+    number = array[num];
+  console.log(num);
+  number.innerHTML = "A";
+  num = num+1;
+  array1.push('A');
+    variable = variable+1;
+  } else if (row2bool === true && variable===1 || num <= 4) {
+    number = array[num];
+  console.log(num);
+  number.innerHTML = "A";
+  num = num+1;
+  array1.push('A');
+    variable = variable + 1;
+  } else if (row3bool === true && variable === 2 || num <= 4) {
+    number = array[num];
+  console.log(num);
+  number.innerHTML = "A";
+  num = num+1;
+  array1.push('A');
+    variable = variable + 1;
+  } else if (row4bool === true && variable === 3 || num <= 4) {
+    number = array[num];
+  console.log(num);
+  number.innerHTML = "A";
+  num = num+1;
+  array1.push('A');
+    variable = variable + 1;
+  } else if (row5boool === true && variable === 4 || num <= 4) {
+    number = array[num];
+  console.log(num);
+  number.innerHTML = "A";
+  num = num+1;
+  array1.push('A');
+    variable = variable + 1;
+  } else if (row6bool === true && variable === 5 || num <= 4) {
+    number = array[num];
+  console.log(num);
+  number.innerHTML = "A";
+  num = num+1;
+  array1.push('A');
+    varuable = variable + 1;
+  } else {
+    console.log('dont, just dont');
+  }
+})
+
+s.addEventListener('click', function onClick() {
+  let row1bool = false;
+let row2bool = false;
+let row3bool = false;
+let row4bool = false;
+let row5bool = false;
+let row6bool = false;
+  let variable = 0;
+  if (row1bool === true && variable===0 || num<=4) {
+    number = array[num];
+  console.log(num);
+  number.innerHTML = "S";
+  num = num+1;
+  array1.push('S');
+    variable = variable+1;
+  } else if (row2bool === true && variable===1 || num <= 4) {
+    number = array[num];
+  console.log(num);
+  number.innerHTML = "S";
+  num = num+1;
+  array1.push('S');
+    variable = variable + 1;
+  } else if (row3bool === true && variable === 2 || num <= 4) {
+    number = array[num];
+  console.log(num);
+  number.innerHTML = "S";
+  num = num+1;
+  array1.push('S');
+    variable = variable + 1;
+  } else if (row4bool === true && variable === 3 || num <= 4) {
+    number = array[num];
+  console.log(num);
+  number.innerHTML = "S";
+  num = num+1;
+  array1.push('S');
+    variable = variable + 1;
+  } else if (row5boool === true && variable === 4 || num <= 4) {
+    number = array[num];
+  console.log(num);
+  number.innerHTML = "S";
+  num = num+1;
+  array1.push('S');
+    variable = variable + 1;
+  } else if (row6bool === true && variable === 5 || num <= 4) {
+    number = array[num];
+  console.log(num);
+  number.innerHTML = "S";
+  num = num+1;
+  array1.push('S');
+    varuable = variable + 1;
+  } else {
+    console.log('dont, just dont');
+  }
+})
+
+d.addEventListener('click', function onClick() {
+  let row1bool = false;
+let row2bool = false;
+let row3bool = false;
+let row4bool = false;
+let row5bool = false;
+let row6bool = false;
+  let variable = 0;
+  if (row1bool === true && variable===0 || num<=4) {
+    number = array[num];
+  console.log(num);
+  number.innerHTML = "D";
+  num = num+1;
+  array1.push('D');
+    variable = variable+1;
+  } else if (row2bool === true && variable===1 || num <= 4) {
+    number = array[num];
+  console.log(num);
+  number.innerHTML = "D";
+  num = num+1;
+  array1.push('D');
+    variable = variable + 1;
+  } else if (row3bool === true && variable === 2 || num <= 4) {
+    number = array[num];
+  console.log(num);
+  number.innerHTML = "D";
+  num = num+1;
+  array1.push('D');
+    variable = variable + 1;
+  } else if (row4bool === true && variable === 3 || num <= 4) {
+    number = array[num];
+  console.log(num);
+  number.innerHTML = "D";
+  num = num+1;
+  array1.push('D');
+    variable = variable + 1;
+  } else if (row5boool === true && variable === 4 || num <= 4) {
+    number = array[num];
+  console.log(num);
+  number.innerHTML = "D";
+  num = num+1;
+  array1.push('D');
+    variable = variable + 1;
+  } else if (row6bool === true && variable === 5 || num <= 4) {
+    number = array[num];
+  console.log(num);
+  number.innerHTML = "D";
+  num = num+1;
+  array1.push('D');
+    varuable = variable + 1;
+  } else {
+    console.log('dont, just dont');
+  }
+})
+
+f.addEventListener('click', function onClick() {
+  let row1bool = false;
+let row2bool = false;
+let row3bool = false;
+let row4bool = false;
+let row5bool = false;
+let row6bool = false;
+  let variable = 0;
+  if (row1bool === true && variable===0 || num<=4) {
+    number = array[num];
+  console.log(num);
+  number.innerHTML = "F";
+  num = num+1;
+  array1.push('F');
+    variable = variable+1;
+  } else if (row2bool === true && variable===1 || num <= 4) {
+    number = array[num];
+  console.log(num);
+  number.innerHTML = "F";
+  num = num+1;
+  array1.push('F');
+    variable = variable + 1;
+  } else if (row3bool === true && variable === 2 || num <= 4) {
+    number = array[num];
+  console.log(num);
+  number.innerHTML = "F";
+  num = num+1;
+  array1.push('F');
+    variable = variable + 1;
+  } else if (row4bool === true && variable === 3 || num <= 4) {
+    number = array[num];
+  console.log(num);
+  number.innerHTML = "F";
+  num = num+1;
+  array1.push('F');
+    variable = variable + 1;
+  } else if (row5boool === true && variable === 4 || num <= 4) {
+    number = array[num];
+  console.log(num);
+  number.innerHTML = "F";
+  num = num+1;
+  array1.push('F');
+    variable = variable + 1;
+  } else if (row6bool === true && variable === 5 || num <= 4) {
+    number = array[num];
+  console.log(num);
+  number.innerHTML = "F";
+  num = num+1;
+  array1.push('F');
+    varuable = variable + 1;
+  } else {
+    console.log('dont, just dont');
+  }
+})
+
+g.addEventListener('click', function onClick() {
+  let row1bool = false;
+let row2bool = false;
+let row3bool = false;
+let row4bool = false;
+let row5bool = false;
+let row6bool = false;
+  let variable = 0;
+  if (row1bool === true && variable===0 || num<=4) {
+    number = array[num];
+  console.log(num);
+  number.innerHTML = "G";
+  num = num+1;
+  array1.push('G');
+    variable = variable+1;
+  } else if (row2bool === true && variable===1 || num <= 4) {
+    number = array[num];
+  console.log(num);
+  number.innerHTML = "G";
+  num = num+1;
+  array1.push('G');
+    variable = variable + 1;
+  } else if (row3bool === true && variable === 2 || num <= 4) {
+    number = array[num];
+  console.log(num);
+  number.innerHTML = "G";
+  num = num+1;
+  array1.push('G');
+    variable = variable + 1;
+  } else if (row4bool === true && variable === 3 || num <= 4) {
+    number = array[num];
+  console.log(num);
+  number.innerHTML = "G";
+  num = num+1;
+  array1.push('G');
+    variable = variable + 1;
+  } else if (row5boool === true && variable === 4 || num <= 4) {
+    number = array[num];
+  console.log(num);
+  number.innerHTML = "G";
+  num = num+1;
+  array1.push('G');
+    variable = variable + 1;
+  } else if (row6bool === true && variable === 5 || num <= 4) {
+    number = array[num];
+  console.log(num);
+  number.innerHTML = "G";
+  num = num+1;
+  array1.push('G');
+    varuable = variable + 1;
+  } else {
+    console.log('dont, just dont');
+  }
+})
+
+h.addEventListener('click', function onClick() {
+  let row1bool = false;
+let row2bool = false;
+let row3bool = false;
+let row4bool = false;
+let row5bool = false;
+let row6bool = false;
+  let variable = 0;
+  if (row1bool === true && variable===0 || num<=4) {
+    number = array[num];
+  console.log(num);
+  number.innerHTML = "H";
+  num = num+1;
+  array1.push('H');
+    variable = variable+1;
+  } else if (row2bool === true && variable===1 || num <= 4) {
+    number = array[num];
+  console.log(num);
+  number.innerHTML = "H";
+  num = num+1;
+  array1.push('H');
+    variable = variable + 1;
+  } else if (row3bool === true && variable === 2 || num <= 4) {
+    number = array[num];
+  console.log(num);
+  number.innerHTML = "H";
+  num = num+1;
+  array1.push('H');
+    variable = variable + 1;
+  } else if (row4bool === true && variable === 3 || num <= 4) {
+    number = array[num];
+  console.log(num);
+  number.innerHTML = "H";
+  num = num+1;
+  array1.push('H');
+    variable = variable + 1;
+  } else if (row5boool === true && variable === 4 || num <= 4) {
+    number = array[num];
+  console.log(num);
+  number.innerHTML = "H";
+  num = num+1;
+  array1.push('H');
+    variable = variable + 1;
+  } else if (row6bool === true && variable === 5 || num <= 4) {
+    number = array[num];
+  console.log(num);
+  number.innerHTML = "H";
+  num = num+1;
+  array1.push('H');
+    varuable = variable + 1;
+  } else {
+    console.log('dont, just dont');
+  }
+})
+
+j.addEventListener('click', function onClick() {
+  let row1bool = false;
+let row2bool = false;
+let row3bool = false;
+let row4bool = false;
+let row5bool = false;
+let row6bool = false;
+  let variable = 0;
+  if (row1bool === true && variable===0 || num<=4) {
+    number = array[num];
+  console.log(num);
+  number.innerHTML = "J";
+  num = num+1;
+  array1.push('J');
+    variable = variable+1;
+  } else if (row2bool === true && variable===1 || num <= 4) {
+    number = array[num];
+  console.log(num);
+  number.innerHTML = "J";
+  num = num+1;
+  array1.push('J');
+    variable = variable + 1;
+  } else if (row3bool === true && variable === 2 || num <= 4) {
+    number = array[num];
+  console.log(num);
+  number.innerHTML = "J";
+  num = num+1;
+  array1.push('J');
+    variable = variable + 1;
+  } else if (row4bool === true && variable === 3 || num <= 4) {
+    number = array[num];
+  console.log(num);
+  number.innerHTML = "J";
+  num = num+1;
+  array1.push('J');
+    variable = variable + 1;
+  } else if (row5boool === true && variable === 4 || num <= 4) {
+    number = array[num];
+  console.log(num);
+  number.innerHTML = "J";
+  num = num+1;
+  array1.push('J');
+    variable = variable + 1;
+  } else if (row6bool === true && variable === 5 || num <= 4) {
+    number = array[num];
+  console.log(num);
+  number.innerHTML = "J";
+  num = num+1;
+  array1.push('J');
+    varuable = variable + 1;
+  } else {
+    console.log('dont, just dont');
+  }
+})
+
+k.addEventListener('click', function onClick() {
+  let row1bool = false;
+let row2bool = false;
+let row3bool = false;
+let row4bool = false;
+let row5bool = false;
+let row6bool = false;
+  let variable = 0;
+  if (row1bool === true && variable===0 || num<=4) {
+    number = array[num];
+  console.log(num);
+  number.innerHTML = "K";
+  num = num+1;
+  array1.push('K');
+    variable = variable+1;
+  } else if (row2bool === true && variable===1 || num <= 4) {
+    number = array[num];
+  console.log(num);
+  number.innerHTML = "K";
+  num = num+1;
+  array1.push('K');
+    variable = variable + 1;
+  } else if (row3bool === true && variable === 2 || num <= 4) {
+    number = array[num];
+  console.log(num);
+  number.innerHTML = "K";
+  num = num+1;
+  array1.push('K');
+    variable = variable + 1;
+  } else if (row4bool === true && variable === 3 || num <= 4) {
+    number = array[num];
+  console.log(num);
+  number.innerHTML = "K";
+  num = num+1;
+  array1.push('K');
+    variable = variable + 1;
+  } else if (row5boool === true && variable === 4 || num <= 4) {
+    number = array[num];
+  console.log(num);
+  number.innerHTML = "K";
+  num = num+1;
+  array1.push('K');
+    variable = variable + 1;
+  } else if (row6bool === true && variable === 5 || num <= 4) {
+    number = array[num];
+  console.log(num);
+  number.innerHTML = "K";
+  num = num+1;
+  array1.push('K');
+    varuable = variable + 1;
+  } else {
+    console.log('dont, just dont');
+  }
+})
+
+l.addEventListener('click', function onClick() {
+  let row1bool = false;
+let row2bool = false;
+let row3bool = false;
+let row4bool = false;
+let row5bool = false;
+let row6bool = false;
+  let variable = 0;
+  if (row1bool === true && variable===0 || num<=4) {
+    number = array[num];
+  console.log(num);
+  number.innerHTML = "L";
+  num = num+1;
+  array1.push('L');
+    variable = variable+1;
+  } else if (row2bool === true && variable===1 || num <= 4) {
+    number = array[num];
+  console.log(num);
+  number.innerHTML = "L";
+  num = num+1;
+  array1.push('L');
+    variable = variable + 1;
+  } else if (row3bool === true && variable === 2 || num <= 4) {
+    number = array[num];
+  console.log(num);
+  number.innerHTML = "L";
+  num = num+1;
+  array1.push('L');
+    variable = variable + 1;
+  } else if (row4bool === true && variable === 3 || num <= 4) {
+    number = array[num];
+  console.log(num);
+  number.innerHTML = "L";
+  num = num+1;
+  array1.push('L');
+    variable = variable + 1;
+  } else if (row5boool === true && variable === 4 || num <= 4) {
+    number = array[num];
+  console.log(num);
+  number.innerHTML = "L";
+  num = num+1;
+  array1.push('L');
+    variable = variable + 1;
+  } else if (row6bool === true && variable === 5 || num <= 4) {
+    number = array[num];
+  console.log(num);
+  number.innerHTML = "L";
+  num = num+1;
+  array1.push('L');
+    varuable = variable + 1;
+  } else {
+    console.log('dont, just dont');
+  }
+})
+
+z.addEventListener('click', function onClick() {
+  let row1bool = false;
+let row2bool = false;
+let row3bool = false;
+let row4bool = false;
+let row5bool = false;
+let row6bool = false;
+  let variable = 0;
+  if (row1bool === true && variable===0 || num<=4) {
+    number = array[num];
+  console.log(num);
+  number.innerHTML = "Z";
+  num = num+1;
+  array1.push('Z');
+    variable = variable+1;
+  } else if (row2bool === true && variable===1 || num <= 4) {
+    number = array[num];
+  console.log(num);
+  number.innerHTML = "Z";
+  num = num+1;
+  array1.push('Z');
+    variable = variable + 1;
+  } else if (row3bool === true && variable === 2 || num <= 4) {
+    number = array[num];
+  console.log(num);
+  number.innerHTML = "Z";
+  num = num+1;
+  array1.push('Z');
+    variable = variable + 1;
+  } else if (row4bool === true && variable === 3 || num <= 4) {
+    number = array[num];
+  console.log(num);
+  number.innerHTML = "Z";
+  num = num+1;
+  array1.push('Z');
+    variable = variable + 1;
+  } else if (row5boool === true && variable === 4 || num <= 4) {
+    number = array[num];
+  console.log(num);
+  number.innerHTML = "Z";
+  num = num+1;
+  array1.push('Z');
+    variable = variable + 1;
+  } else if (row6bool === true && variable === 5 || num <= 4) {
+    number = array[num];
+  console.log(num);
+  number.innerHTML = "Z";
+  num = num+1;
+  array1.push('Z');
+    varuable = variable + 1;
+  } else {
+    console.log('dont, just dont');
+  }
+})
+
+x.addEventListener('click', function onClick() {
+  let row1bool = false;
+let row2bool = false;
+let row3bool = false;
+let row4bool = false;
+let row5bool = false;
+let row6bool = false;
+  let variable = 0;
+  if (row1bool === true && variable===0 || num<=4) {
+    number = array[num];
+  console.log(num);
+  number.innerHTML = "X";
+  num = num+1;
+  array1.push('X');
+    variable = variable+1;
+  } else if (row2bool === true && variable===1 || num <= 4) {
+    number = array[num];
+  console.log(num);
+  number.innerHTML = "X";
+  num = num+1;
+  array1.push('X');
+    variable = variable + 1;
+  } else if (row3bool === true && variable === 2 || num <= 4) {
+    number = array[num];
+  console.log(num);
+  number.innerHTML = "X";
+  num = num+1;
+  array1.push('X');
+    variable = variable + 1;
+  } else if (row4bool === true && variable === 3 || num <= 4) {
+    number = array[num];
+  console.log(num);
+  number.innerHTML = "X";
+  num = num+1;
+  array1.push('X');
+    variable = variable + 1;
+  } else if (row5boool === true && variable === 4 || num <= 4) {
+    number = array[num];
+  console.log(num);
+  number.innerHTML = "X";
+  num = num+1;
+  array1.push('X');
+    variable = variable + 1;
+  } else if (row6bool === true && variable === 5 || num <= 4) {
+    number = array[num];
+  console.log(num);
+  number.innerHTML = "X";
+  num = num+1;
+  array1.push('X');
+    varuable = variable + 1;
+  } else {
+    console.log('dont, just dont');
+  }
+})
+
+c.addEventListener('click', function onClick() {
+  let row1bool = false;
+let row2bool = false;
+let row3bool = false;
+let row4bool = false;
+let row5bool = false;
+let row6bool = false;
+  let variable = 0;
+  if (row1bool === true && variable===0 || num<=4) {
+    number = array[num];
+  console.log(num);
+  number.innerHTML = "C";
+  num = num+1;
+  array1.push('C');
+    variable = variable+1;
+  } else if (row2bool === true && variable===1 || num <= 4) {
+    number = array[num];
+  console.log(num);
+  number.innerHTML = "C";
+  num = num+1;
+  array1.push('C');
+    variable = variable + 1;
+  } else if (row3bool === true && variable === 2 || num <= 4) {
+    number = array[num];
+  console.log(num);
+  number.innerHTML = "C";
+  num = num+1;
+  array1.push('C');
+    variable = variable + 1;
+  } else if (row4bool === true && variable === 3 || num <= 4) {
+    number = array[num];
+  console.log(num);
+  number.innerHTML = "C";
+  num = num+1;
+  array1.push('C');
+    variable = variable + 1;
+  } else if (row5boool === true && variable === 4 || num <= 4) {
+    number = array[num];
+  console.log(num);
+  number.innerHTML = "C";
+  num = num+1;
+  array1.push('C');
+    variable = variable + 1;
+  } else if (row6bool === true && variable === 5 || num <= 4) {
+    number = array[num];
+  console.log(num);
+  number.innerHTML = "C";
+  num = num+1;
+  array1.push('C');
+    varuable = variable + 1;
+  } else {
+    console.log('dont, just dont');
+  }
+})
+
+v.addEventListener('click', function onClick() {
+  let row1bool = false;
+let row2bool = false;
+let row3bool = false;
+let row4bool = false;
+let row5bool = false;
+let row6bool = false;
+  let variable = 0;
+  if (row1bool === true && variable===0 || num<=4) {
+    number = array[num];
+  console.log(num);
+  number.innerHTML = "V";
+  num = num+1;
+  array1.push('V');
+    variable = variable+1;
+  } else if (row2bool === true && variable===1 || num <= 4) {
+    number = array[num];
+  console.log(num);
+  number.innerHTML = "V";
+  num = num+1;
+  array1.push('V');
+    variable = variable + 1;
+  } else if (row3bool === true && variable === 2 || num <= 4) {
+    number = array[num];
+  console.log(num);
+  number.innerHTML = "V";
+  num = num+1;
+  array1.push('V');
+    variable = variable + 1;
+  } else if (row4bool === true && variable === 3 || num <= 4) {
+    number = array[num];
+  console.log(num);
+  number.innerHTML = "V";
+  num = num+1;
+  array1.push('V');
+    variable = variable + 1;
+  } else if (row5boool === true && variable === 4 || num <= 4) {
+    number = array[num];
+  console.log(num);
+  number.innerHTML = "V";
+  num = num+1;
+  array1.push('V');
+    variable = variable + 1;
+  } else if (row6bool === true && variable === 5 || num <= 4) {
+    number = array[num];
+  console.log(num);
+  number.innerHTML = "V";
+  num = num+1;
+  array1.push('V');
+    varuable = variable + 1;
+  } else {
+    console.log('dont, just dont');
+  }
+})
+
+b.addEventListener('click', function onClick() {
+  let row1bool = false;
+let row2bool = false;
+let row3bool = false;
+let row4bool = false;
+let row5bool = false;
+let row6bool = false;
+  let variable = 0;
+  if (row1bool === true && variable===0 || num<=4) {
+    number = array[num];
+  console.log(num);
+  number.innerHTML = "B";
+  num = num+1;
+  array1.push('B');
+    variable = variable+1;
+  } else if (row2bool === true && variable===1 || num <= 4) {
+    number = array[num];
+  console.log(num);
+  number.innerHTML = "B";
+  num = num+1;
+  array1.push('B');
+    variable = variable + 1;
+  } else if (row3bool === true && variable === 2 || num <= 4) {
+    number = array[num];
+  console.log(num);
+  number.innerHTML = "B";
+  num = num+1;
+  array1.push('B');
+    variable = variable + 1;
+  } else if (row4bool === true && variable === 3 || num <= 4) {
+    number = array[num];
+  console.log(num);
+  number.innerHTML = "B";
+  num = num+1;
+  array1.push('B');
+    variable = variable + 1;
+  } else if (row5boool === true && variable === 4 || num <= 4) {
+    number = array[num];
+  console.log(num);
+  number.innerHTML = "B";
+  num = num+1;
+  array1.push('B');
+    variable = variable + 1;
+  } else if (row6bool === true && variable === 5 || num <= 4) {
+    number = array[num];
+  console.log(num);
+  number.innerHTML = "B";
+  num = num+1;
+  array1.push('B');
+    varuable = variable + 1;
+  } else {
+    console.log('dont, just dont');
+  }
+})
+
+n.addEventListener('click', function onClick() {
+  let row1bool = false;
+let row2bool = false;
+let row3bool = false;
+let row4bool = false;
+let row5bool = false;
+let row6bool = false;
+  let variable = 0;
+  if (row1bool === true && variable===0 || num<=4) {
+    number = array[num];
+  console.log(num);
+  number.innerHTML = "N";
+  num = num+1;
+  array1.push('N');
+    variable = variable+1;
+  } else if (row2bool === true && variable===1 || num <= 4) {
+    number = array[num];
+  console.log(num);
+  number.innerHTML = "N";
+  num = num+1;
+  array1.push('N');
+    variable = variable + 1;
+  } else if (row3bool === true && variable === 2 || num <= 4) {
+    number = array[num];
+  console.log(num);
+  number.innerHTML = "N";
+  num = num+1;
+  array1.push('N');
+    variable = variable + 1;
+  } else if (row4bool === true && variable === 3 || num <= 4) {
+    number = array[num];
+  console.log(num);
+  number.innerHTML = "N";
+  num = num+1;
+  array1.push('N');
+    variable = variable + 1;
+  } else if (row5boool === true && variable === 4 || num <= 4) {
+    number = array[num];
+  console.log(num);
+  number.innerHTML = "N";
+  num = num+1;
+  array1.push('N');
+    variable = variable + 1;
+  } else if (row6bool === true && variable === 5 || num <= 4) {
+    number = array[num];
+  console.log(num);
+  number.innerHTML = "N";
+  num = num+1;
+  array1.push('N');
+    varuable = variable + 1;
+  } else {
+    console.log('dont, just dont');
+  }
+})
+
+//m.addEventListener('click', function onClick() {
+//  number = array[num];
+//  console.log(number);
+//  number.innerHTML = "M";
+//  num = num+1;
+//  array1.push('M');
+//})
+
+m.addEventListener('click', function onClick() {
+  let row1bool = false;
+let row2bool = false;
+let row3bool = false;
+let row4bool = false;
+let row5bool = false;
+let row6bool = false;
+  let variable1 = 0;
+  if (row1bool === true && variable1===0 || num<=4) {
+    number = array[num];
+  console.log(num);
+  number.innerHTML = "M";
+  num = num+1;
+  array1.push('M');
+    variable1 = variable1+1;
+  } else if (row2bool === true && variable1===1 || num <= 4) {
+    number = array[num];
+  console.log(num);
+  number.innerHTML = "M";
+  num = num+1;
+  array1.push('M');
+    variable1 = variable1 + 1;
+  } else if (row3bool === true && variable1 === 2 || num <= 4) {
+    number = array[num];
+  console.log(num);
+  number.innerHTML = "M";
+  num = num+1;
+  array1.push('M');
+    variable1 = variable1 + 1;
+  } else if (row4bool === true && variable1 === 3 || num <= 4) {
+    number = array[num];
+  console.log(num);
+  number.innerHTML = "M";
+  num = num+1;
+  array1.push('M');
+    variable1 = variable1 + 1;
+  } else if (row5boool === true && variable1 === 4 || num <= 4) {
+    number = array[num];
+  console.log(num);
+  number.innerHTML = "M";
+  num = num+1;
+  array1.push('M');
+    variable1 = variable1 + 1;
+  } else if (row6bool === true && variable1 === 5 || num <= 4) {
+    number = array[num];
+  console.log(num);
+  number.innerHTML = "M";
+  num = num+1;
+  array1.push('M');
+    variable1 = variable1 + 1;
+  } else {
+    console.log('dont, just dont');
+  }
+})
+
+del.addEventListener('click', function onClick() {
+  number = array[num-1];
+  number.innerHTML = "";
+  array1.splice(num-1, 1);
+  num = num-1;
+})
 
 
-let id = document.getElementById('heading');
-function winGame() {
-  if (b11 === 1 && b12 === 1 && b13 === 1) {
-    id.innerHTML = 'Black Wins';
-    console.log('black wins');
-    var newbtn = btn.cloneNode(true);
-    btn.parentNode.replaceChild(newbtn, btn);
-    var newb2 = b2.cloneNode(true);
-    b2.parentNode.replaceChild(newb2, b2);
-    var newb3 = b3.cloneNode(true);
-    b3.parentNode.replaceChild(newb3, b3);
-    var newb4 = b4.cloneNode(true);
-    b4.parentNode.replaceChild(newb4, b4);
-    var newb5 = b5.cloneNode(true);
-    b5.parentNode.replaceChild(newb5, b5);
-    var newb6 = b6.cloneNode(true);
-    b6.parentNode.replaceChild(newb6, b6);
-    var newb7 = b7.cloneNode(true);
-    b7.parentNode.replaceChild(newb7, b7);
-    var newb8 = b8.cloneNode(true);
-    b8.parentNode.replaceChild(newb8, b8);
-    var newb9 = b9.cloneNode(true);
-    b9.parentNode.replaceChild(newb9, b9);
-  } else if (b11 === 2 && b12 === 2 && b13 === 2) {
-    id.innerHTML = 'White Wins'
-    console.log('white wins');
-    var newbtn = btn.cloneNode(true);
-    btn.parentNode.replaceChild(newbtn, btn);
-    var newb2 = b2.cloneNode(true);
-    b2.parentNode.replaceChild(newb2, b2);
-    var newb3 = b3.cloneNode(true);
-    b3.parentNode.replaceChild(newb3, b3);
-    var newb4 = b4.cloneNode(true);
-    b4.parentNode.replaceChild(newb4, b4);
-    var newb5 = b5.cloneNode(true);
-    b5.parentNode.replaceChild(newb5, b5);
-    var newb6 = b6.cloneNode(true);
-    b6.parentNode.replaceChild(newb6, b6);
-    var newb7 = b7.cloneNode(true);
-    b7.parentNode.replaceChild(newb7, b7);
-    var newb8 = b8.cloneNode(true);
-    b8.parentNode.replaceChild(newb8, b8);
-    var newb9 = b9.cloneNode(true);
-    b9.parentNode.replaceChild(newb9, b9);
-  } else if (b14 === 1 && b15 === 1 && b16 === 1) {
-    id.innerHTML = 'Black Wins';
-    console.log('black wins');
-    var newbtn = btn.cloneNode(true);
-    btn.parentNode.replaceChild(newbtn, btn);
-    var newb2 = b2.cloneNode(true);
-    b2.parentNode.replaceChild(newb2, b2);
-    var newb3 = b3.cloneNode(true);
-    b3.parentNode.replaceChild(newb3, b3);
-    var newb4 = b4.cloneNode(true);
-    b4.parentNode.replaceChild(newb4, b4);
-    var newb5 = b5.cloneNode(true);
-    b5.parentNode.replaceChild(newb5, b5);
-    var newb6 = b6.cloneNode(true);
-    b6.parentNode.replaceChild(newb6, b6);
-    var newb7 = b7.cloneNode(true);
-    b7.parentNode.replaceChild(newb7, b7);
-    var newb8 = b8.cloneNode(true);
-    b8.parentNode.replaceChild(newb8, b8);
-    var newb9 = b9.cloneNode(true);
-    b9.parentNode.replaceChild(newb9, b9);
-  } else if (b14 === 2 && b15 === 2 && b16 === 2) {
-    id.innerHTML = 'White Wins'
-    console.log('white wins');
-    var newbtn = btn.cloneNode(true);
-    btn.parentNode.replaceChild(newbtn, btn);
-    var newb2 = b2.cloneNode(true);
-    b2.parentNode.replaceChild(newb2, b2);
-    var newb3 = b3.cloneNode(true);
-    b3.parentNode.replaceChild(newb3, b3);
-    var newb4 = b4.cloneNode(true);
-    b4.parentNode.replaceChild(newb4, b4);
-    var newb5 = b5.cloneNode(true);
-    b5.parentNode.replaceChild(newb5, b5);
-    var newb6 = b6.cloneNode(true);
-    b6.parentNode.replaceChild(newb6, b6);
-    var newb7 = b7.cloneNode(true);
-    b7.parentNode.replaceChild(newb7, b7);
-    var newb8 = b8.cloneNode(true);
-    b8.parentNode.replaceChild(newb8, b8);
-    var newb9 = b9.cloneNode(true);
-    b9.parentNode.replaceChild(newb9, b9);
-} else if (b17 === 1 && b18 === 1 && b19 === 1) {
-    id.innerHTML = 'Black Wins';
-    console.log('black wins');
-    var newbtn = btn.cloneNode(true);
-    btn.parentNode.replaceChild(newbtn, btn);
-    var newb2 = b2.cloneNode(true);
-    b2.parentNode.replaceChild(newb2, b2);
-    var newb3 = b3.cloneNode(true);
-    b3.parentNode.replaceChild(newb3, b3);
-    var newb4 = b4.cloneNode(true);
-    b4.parentNode.replaceChild(newb4, b4);
-    var newb5 = b5.cloneNode(true);
-    b5.parentNode.replaceChild(newb5, b5);
-    var newb6 = b6.cloneNode(true);
-    b6.parentNode.replaceChild(newb6, b6);
-    var newb7 = b7.cloneNode(true);
-    b7.parentNode.replaceChild(newb7, b7);
-    var newb8 = b8.cloneNode(true);
-    b8.parentNode.replaceChild(newb8, b8);
-    var newb9 = b9.cloneNode(true);
-    b9.parentNode.replaceChild(newb9, b9);
-  } else if (b17 === 2 && b18 === 2 && b19 === 2) {
-    id.innerHTML = 'White Wins'
-    console.log('white wins');
-    var newbtn = btn.cloneNode(true);
-    btn.parentNode.replaceChild(newbtn, btn);
-    var newb2 = b2.cloneNode(true);
-    b2.parentNode.replaceChild(newb2, b2);
-    var newb3 = b3.cloneNode(true);
-    b3.parentNode.replaceChild(newb3, b3);
-    var newb4 = b4.cloneNode(true);
-    b4.parentNode.replaceChild(newb4, b4);
-    var newb5 = b5.cloneNode(true);
-    b5.parentNode.replaceChild(newb5, b5);
-    var newb6 = b6.cloneNode(true);
-    b6.parentNode.replaceChild(newb6, b6);
-    var newb7 = b7.cloneNode(true);
-    b7.parentNode.replaceChild(newb7, b7);
-    var newb8 = b8.cloneNode(true);
-    b8.parentNode.replaceChild(newb8, b8);
-    var newb9 = b9.cloneNode(true);
-    b9.parentNode.replaceChild(newb9, b9);
-  } else if (b11 === 1 && b14 === 1 && b17 === 1) {
-    id.innerHTML = 'Black Wins';
-    console.log('black wins');
-    var newbtn = btn.cloneNode(true);
-    btn.parentNode.replaceChild(newbtn, btn);
-    var newb2 = b2.cloneNode(true);
-    b2.parentNode.replaceChild(newb2, b2);
-    var newb3 = b3.cloneNode(true);
-    b3.parentNode.replaceChild(newb3, b3);
-    var newb4 = b4.cloneNode(true);
-    b4.parentNode.replaceChild(newb4, b4);
-    var newb5 = b5.cloneNode(true);
-    b5.parentNode.replaceChild(newb5, b5);
-    var newb6 = b6.cloneNode(true);
-    b6.parentNode.replaceChild(newb6, b6);
-    var newb7 = b7.cloneNode(true);
-    b7.parentNode.replaceChild(newb7, b7);
-    var newb8 = b8.cloneNode(true);
-    b8.parentNode.replaceChild(newb8, b8);
-    var newb9 = b9.cloneNode(true);
-    b9.parentNode.replaceChild(newb9, b9);
-  } else if (b11 === 2 && b14 === 2 && b17 === 2) {
-    id.innerHTML = 'White Wins'
-    console.log('white wins');
-    var newbtn = btn.cloneNode(true);
-    btn.parentNode.replaceChild(newbtn, btn);
-    var newb2 = b2.cloneNode(true);
-    b2.parentNode.replaceChild(newb2, b2);
-    var newb3 = b3.cloneNode(true);
-    b3.parentNode.replaceChild(newb3, b3);
-    var newb4 = b4.cloneNode(true);
-    b4.parentNode.replaceChild(newb4, b4);
-    var newb5 = b5.cloneNode(true);
-    b5.parentNode.replaceChild(newb5, b5);
-    var newb6 = b6.cloneNode(true);
-    b6.parentNode.replaceChild(newb6, b6);
-    var newb7 = b7.cloneNode(true);
-    b7.parentNode.replaceChild(newb7, b7);
-    var newb8 = b8.cloneNode(true);
-    b8.parentNode.replaceChild(newb8, b8);
-    var newb9 = b9.cloneNode(true);
-    b9.parentNode.replaceChild(newb9, b9);
-  } else if (b12 === 1 && b15 === 1 && b18 === 1) {
-    id.innerHTML = 'Black Wins';
-    console.log('black wins');
-    var newbtn = btn.cloneNode(true);
-    btn.parentNode.replaceChild(newbtn, btn);
-    var newb2 = b2.cloneNode(true);
-    b2.parentNode.replaceChild(newb2, b2);
-    var newb3 = b3.cloneNode(true);
-    b3.parentNode.replaceChild(newb3, b3);
-    var newb4 = b4.cloneNode(true);
-    b4.parentNode.replaceChild(newb4, b4);
-    var newb5 = b5.cloneNode(true);
-    b5.parentNode.replaceChild(newb5, b5);
-    var newb6 = b6.cloneNode(true);
-    b6.parentNode.replaceChild(newb6, b6);
-    var newb7 = b7.cloneNode(true);
-    b7.parentNode.replaceChild(newb7, b7);
-    var newb8 = b8.cloneNode(true);
-    b8.parentNode.replaceChild(newb8, b8);
-    var newb9 = b9.cloneNode(true);
-    b9.parentNode.replaceChild(newb9, b9);
-  } else if (b12 === 2 && b15 === 2 && b18 === 2) {
-    id.innerHTML = 'White Wins'
-    console.log('white wins');
-    var newbtn = btn.cloneNode(true);
-    btn.parentNode.replaceChild(newbtn, btn);
-    var newb2 = b2.cloneNode(true);
-    b2.parentNode.replaceChild(newb2, b2);
-    var newb3 = b3.cloneNode(true);
-    b3.parentNode.replaceChild(newb3, b3);
-    var newb4 = b4.cloneNode(true);
-    b4.parentNode.replaceChild(newb4, b4);
-    var newb5 = b5.cloneNode(true);
-    b5.parentNode.replaceChild(newb5, b5);
-    var newb6 = b6.cloneNode(true);
-    b6.parentNode.replaceChild(newb6, b6);
-    var newb7 = b7.cloneNode(true);
-    b7.parentNode.replaceChild(newb7, b7);
-    var newb8 = b8.cloneNode(true);
-    b8.parentNode.replaceChild(newb8, b8);
-    var newb9 = b9.cloneNode(true);
-    b9.parentNode.replaceChild(newb9, b9);
-  } else if (b13 === 1 && b16 === 1 && b19 === 1) {
-    id.innerHTML = 'Black Wins';
-    console.log('black wins');
-    var newbtn = btn.cloneNode(true);
-    btn.parentNode.replaceChild(newbtn, btn);
-    var newb2 = b2.cloneNode(true);
-    b2.parentNode.replaceChild(newb2, b2);
-    var newb3 = b3.cloneNode(true);
-    b3.parentNode.replaceChild(newb3, b3);
-    var newb4 = b4.cloneNode(true);
-    b4.parentNode.replaceChild(newb4, b4);
-    var newb5 = b5.cloneNode(true);
-    b5.parentNode.replaceChild(newb5, b5);
-    var newb6 = b6.cloneNode(true);
-    b6.parentNode.replaceChild(newb6, b6);
-    var newb7 = b7.cloneNode(true);
-    b7.parentNode.replaceChild(newb7, b7);
-    var newb8 = b8.cloneNode(true);
-    b8.parentNode.replaceChild(newb8, b8);
-    var newb9 = b9.cloneNode(true);
-    b9.parentNode.replaceChild(newb9, b9);
-  } else if (b13 === 2 && b16 === 2 && b19 === 2) {
-    id.innerHTML = 'White Wins'
-    console.log('white wins');
-    var newbtn = btn.cloneNode(true);
-    btn.parentNode.replaceChild(newbtn, btn);
-    var newb2 = b2.cloneNode(true);
-    b2.parentNode.replaceChild(newb2, b2);
-    var newb3 = b3.cloneNode(true);
-    b3.parentNode.replaceChild(newb3, b3);
-    var newb4 = b4.cloneNode(true);
-    b4.parentNode.replaceChild(newb4, b4);
-    var newb5 = b5.cloneNode(true);
-    b5.parentNode.replaceChild(newb5, b5);
-    var newb6 = b6.cloneNode(true);
-    b6.parentNode.replaceChild(newb6, b6);
-    var newb7 = b7.cloneNode(true);
-    b7.parentNode.replaceChild(newb7, b7);
-    var newb8 = b8.cloneNode(true);
-    b8.parentNode.replaceChild(newb8, b8);
-    var newb9 = b9.cloneNode(true);
-    b9.parentNode.replaceChild(newb9, b9);
-  } else if (b11 === 1 && b15 === 1 && b19 === 1) {
-    id.innerHTML = 'Black Wins';
-    console.log('black wins');
-    var newbtn = btn.cloneNode(true);
-    btn.parentNode.replaceChild(newbtn, btn);
-    var newb2 = b2.cloneNode(true);
-    b2.parentNode.replaceChild(newb2, b2);
-    var newb3 = b3.cloneNode(true);
-    b3.parentNode.replaceChild(newb3, b3);
-    var newb4 = b4.cloneNode(true);
-    b4.parentNode.replaceChild(newb4, b4);
-    var newb5 = b5.cloneNode(true);
-    b5.parentNode.replaceChild(newb5, b5);
-    var newb6 = b6.cloneNode(true);
-    b6.parentNode.replaceChild(newb6, b6);
-    var newb7 = b7.cloneNode(true);
-    b7.parentNode.replaceChild(newb7, b7);
-    var newb8 = b8.cloneNode(true);
-    b8.parentNode.replaceChild(newb8, b8);
-    var newb9 = b9.cloneNode(true);
-    b9.parentNode.replaceChild(newb9, b9);
-  } else if (b11 === 2 && b15 === 2 && b19 === 2) {
-    id.innerHTML = 'White Wins'
-    console.log('white wins');
-    var newbtn = btn.cloneNode(true);
-    btn.parentNode.replaceChild(newbtn, btn);
-    var newb2 = b2.cloneNode(true);
-    b2.parentNode.replaceChild(newb2, b2);
-    var newb3 = b3.cloneNode(true);
-    b3.parentNode.replaceChild(newb3, b3);
-    var newb4 = b4.cloneNode(true);
-    b4.parentNode.replaceChild(newb4, b4);
-    var newb5 = b5.cloneNode(true);
-    b5.parentNode.replaceChild(newb5, b5);
-    var newb6 = b6.cloneNode(true);
-    b6.parentNode.replaceChild(newb6, b6);
-    var newb7 = b7.cloneNode(true);
-    b7.parentNode.replaceChild(newb7, b7);
-    var newb8 = b8.cloneNode(true);
-    b8.parentNode.replaceChild(newb8, b8);
-    var newb9 = b9.cloneNode(true);
-    b9.parentNode.replaceChild(newb9, b9);
-  } else if (b13 === 1 && b15 === 1 && b17 === 1) {
-    id.innerHTML = 'Black Wins';
-    console.log('black wins');
-    var newbtn = btn.cloneNode(true);
-    btn.parentNode.replaceChild(newbtn, btn);
-    var newb2 = b2.cloneNode(true);
-    b2.parentNode.replaceChild(newb2, b2);
-    var newb3 = b3.cloneNode(true);
-    b3.parentNode.replaceChild(newb3, b3);
-    var newb4 = b4.cloneNode(true);
-    b4.parentNode.replaceChild(newb4, b4);
-    var newb5 = b5.cloneNode(true);
-    b5.parentNode.replaceChild(newb5, b5);
-    var newb6 = b6.cloneNode(true);
-    b6.parentNode.replaceChild(newb6, b6);
-    var newb7 = b7.cloneNode(true);
-    b7.parentNode.replaceChild(newb7, b7);
-    var newb8 = b8.cloneNode(true);
-    b8.parentNode.replaceChild(newb8, b8);
-    var newb9 = b9.cloneNode(true);
-    b9.parentNode.replaceChild(newb9, b9);
-  } else if (b13 === 2 && b15 === 2 && b17 === 2) {
-    id.innerHTML = 'White Wins'
-    console.log('white wins');
-    var newbtn = btn.cloneNode(true);
-    btn.parentNode.replaceChild(newbtn, btn);
-    var newb2 = b2.cloneNode(true);
-    b2.parentNode.replaceChild(newb2, b2);
-    var newb3 = b3.cloneNode(true);
-    b3.parentNode.replaceChild(newb3, b3);
-    var newb4 = b4.cloneNode(true);
-    b4.parentNode.replaceChild(newb4, b4);
-    var newb5 = b5.cloneNode(true);
-    b5.parentNode.replaceChild(newb5, b5);
-    var newb6 = b6.cloneNode(true);
-    b6.parentNode.replaceChild(newb6, b6);
-    var newb7 = b7.cloneNode(true);
-    b7.parentNode.replaceChild(newb7, b7);
-    var newb8 = b8.cloneNode(true);
-    b8.parentNode.replaceChild(newb8, b8);
-    var newb9 = b9.cloneNode(true);
-    b9.parentNode.replaceChild(newb9, b9);
-  } else if ((b11 === 1||b11===2) && (b12 === 1||b12===2) && (b13 === 1 || b13 === 2) && (b14 === 1 || b14===2) && (b15 === 1||b15===2) && (b16 === 1 || b16 === 2) && (b17 === 1 || b17 === 2) && (b18 === 1 || b18 === 2) && (b19 === 1 || b19 === 2)) {
-    id.innerHTML = 'DRAW, just like the korean war';
-    console.log('draw');
+//Game
+
+let word = 'ZASDA';
+
+let heading = document.getElementById('heading');
+
+let display = document.getElementById('display');
+
+let row = 1;
+
+function determineRow() {
+  if (num === 0 || num === 1 || num === 2 || num === 3 || num === 4 || num === 5) {
+    row = 1;
+    return 1;
+  } else if (num === 5 || num === 6 || num === 7 || num === 8 || num === 9 || num === 10) {
+    row = 2;
+    return 2;
+  } if (num === 10 || num === 11 || num === 12 || num === 13 || num === 14 || num === 15) {
+    row = 3;
+    return 3;
+  } else if (num === 15 || num === 16 || num === 17 || num === 18 || num === 19) {
+    row = 4;
+    return 4;
+  } else if (num === 20 || num === 21 || num === 22 || num === 23 || num === 24) {
+    row = 5;
+    return 5;
+  } else if (num === 25 || num === 26 || num === 27 || num === 28 || num === 29) {
+    row = 6;
+    return 6;
+}
+}
+
+function generateFirstGuess() {
+  let firstGuess = array1[0] + array1[1] + array1[2] + array1[3] + array1[4];
+  if (firstGuess === word) {
+    console.log("congrats, you got the answer");
+    console.log(array1);
+    display.innerHTML = "Congrats, thats the answer";
+    array1 = [];
+  } else {
+    console.log("nope, thats not it");
+    console.log(array1);
+    display.innerHTML = 'Sorry, thats not the answer';
+    array1 = [];
   }
 }
 
-winGame();
+function generateSecondGuess() {
+  let secondGuess = array1[0] + array1[1] + array1[2] + array1[3] + array1[4];
+  if (secondGuess === word) {
+    console.log("congrats, you got the answer");
+    console.log(array1);
+    display.innerHTML = "Congrats, thats the answer";
+    array1 = [];
+  } else {
+    console.log("nope, thats not it");
+    console.log(array1);
+    display.innerHTML = 'Sorry, thats not the answer';
+    array1 = [];
+  }
+}
+
+function generateThirdGuess() {
+  let thirdGuess = array1[0] + array1[1] + array1[2] + array1[3] + array1[4];
+  if (thirdGuess === word) {
+    console.log("congrats, you got the answer");
+    console.log(array1);
+    display.innerHTML = "Congrats, thats the answer";
+    array1 = [];
+  } else {
+    console.log("nope, thats not it");
+    console.log(array1);
+    display.innerHTML = 'Sorry, thats not the answer';
+    array1 = [];
+  }
+}
+
+function generateFourthGuess() {
+  let fourthGuess = array1[0] + array1[1] + array1[2] + array1[3] + array1[4];
+  if (fourthGuess === word) {
+    console.log("congrats, you got the answer");
+    console.log(array1);
+    display.innerHTML = "Congrats, thats the answer";
+    array1 = [];
+  } else {
+    console.log("nope, thats not it");
+    console.log(array1);
+    display.innerHTML = 'Sorry, thats not the answer';
+    array1 = [];
+  }
+}
+
+function generateFifthGuess() {
+  let fifthGuess = array1[0] + array1[1] + array1[2] + array1[3] + array1[4];
+  if (fifthGuess === word) {
+    console.log("congrats, you got the answer");
+    console.log(array1);
+    display.innerHTML = "Congrats, thats the answer";
+    array1 = [];
+  } else {
+    console.log("nope, thats not it");
+    console.log(array1);
+    display.innerHTML = 'Sorry, thats not the answer';
+    array1 = [];
+  }
+}
+
+function generateSixthGuess() {
+  let sixthGuess = array1[0] + array1[1] + array1[2] + array1[3] + array1[4];
+  console.log(sixthGuess);
+  if (sixthGuess === word) {
+    console.log("congrats, you got the answer");
+    console.log(array1);
+    display.innerHTML = "Congrats, thats the answer";
+    array1 = [];
+  } else {
+    console.log("nope, thats not it");
+    console.log(array1);
+    display.innerHTML = 'Sorry, thats not the answer';
+    array1 = [];
+  }
+}
 
 
+
+enter.addEventListener('click', function guessGuess(){
+  if (num === 5 || num === 10 || num === 15 || num === 20 || num === 25 || num === 30) {
+    if (row === 1) {
+    generateFirstGuess();
+    var news1 = s1.cloneNode(true);
+    s1.parentNode.replaceChild(news1, s1);
+    var news2 = s2.cloneNode(true);
+    s2.parentNode.replaceChild(news2, s2);
+    var news3 = s3.cloneNode(true);
+    s3.parentNode.replaceChild(news3, s3);
+    var news4 = s4.cloneNode(true);
+    s4.parentNode.replaceChild(news4, s4);
+    var news5 = s5.cloneNode(true);
+    s5.parentNode.replaceChild(news5, s5);
+    array.splice(0, 5);
+    num = 0;
+    row = row + 1;
+    console.log(row);
+    row1bool = true;
+  } else if (row === 2) {
+    generateSecondGuess();
+    var news6 = s6.cloneNode(true);
+    s6.parentNode.replaceChild(news6, s6);
+    var news7 = s7.cloneNode(true);
+    s7.parentNode.replaceChild(news7, s7);
+    var news8 = s8.cloneNode(true);
+    s8.parentNode.replaceChild(news8, s8);
+    var news9 = s9.cloneNode(true);
+    s9.parentNode.replaceChild(news9, s9);
+    var news10 = s10.cloneNode(true);
+    s10.parentNode.replaceChild(news10, s10);
+    array.splice(0, 5);
+    num = 0;
+    row = row + 1;
+    console.log(row);
+      row2bool = true;
+  } else if (row === 3) {
+    generateThirdGuess();
+    var news11 = s11.cloneNode(true);
+    s11.parentNode.replaceChild(news11, s11);
+    var news12 = s12.cloneNode(true);
+    s12.parentNode.replaceChild(news12, s12);
+    var news13 = s13.cloneNode(true);
+    s13.parentNode.replaceChild(news13, s13);
+    var news14 = s14.cloneNode(true);
+    s14.parentNode.replaceChild(news14, s14);
+    var news15 = s15.cloneNode(true);
+    s15.parentNode.replaceChild(news15, s15);
+    array.splice(0, 5);
+    num = 0;
+    row = row + 1;
+    console.log(row);
+    row3bool = true;
+  } else if (row === 4) {
+    generateFourthGuess();
+    var news16 = s16.cloneNode(true);
+    s16.parentNode.replaceChild(news16, s16);
+    var news17 = s17.cloneNode(true);
+    s17.parentNode.replaceChild(news17, s17);
+    var news18 = s18.cloneNode(true);
+    s18.parentNode.replaceChild(news18, s18);
+    var news19 = s19.cloneNode(true);
+    s19.parentNode.replaceChild(news19, s19);
+    var news20 = s20.cloneNode(true);
+    s20.parentNode.replaceChild(news20, s20);
+    array.splice(0, 5);
+    num = 0;
+    row = row + 1;
+    console.log(row);
+    row4bool = true;
+  } else if (row === 5) {
+    generateFifthGuess();
+    var news21 = s21.cloneNode(true);
+    s21.parentNode.replaceChild(news21, s21);
+    var news22 = s22.cloneNode(true);
+    s22.parentNode.replaceChild(news22, s22);
+    var news23 = s23.cloneNode(true);
+    s23.parentNode.replaceChild(news23, s23);
+    var news24 = s24.cloneNode(true);
+    s24.parentNode.replaceChild(news24, s24);
+    var news25 = s25.cloneNode(true);
+    s25.parentNode.replaceChild(news25, s25);
+    array.splice(0, 5);
+    num = 0;
+    row = row + 1;
+    console.log(row);
+      row5bool = true;
+  } else if (row === 6) {
+    generateSixthGuess();
+    var news26 = s26.cloneNode(true);
+    s26.parentNode.replaceChild(news26, s26);
+    var news27 = s27.cloneNode(true);
+    s27.parentNode.replaceChild(news27, s27);
+    var news28 = s28.cloneNode(true);
+    s28.parentNode.replaceChild(news28, s28);
+    var news29 = s29.cloneNode(true);
+    s29.parentNode.replaceChild(news29, s29);
+    var news30 = s30.cloneNode(true);
+    s30.parentNode.replaceChild(news30, s30);
+    num = 0;
+    console.log(row);
+    console.log(array1);
+    row6bool = true;
+    display.innerHTML = "You Lose, the word is " + word;
+    }
+  } else {
+    //display.innerHTML = "Please Enter the full row";
+    console.log("enter a valid word");
+  }
+}); 
+
+
+//Also add code that hinders the user to enter words beyond the word. 
+//Finally, just add the colors and style and animate it and it would be a perfect wordle. (or quotle!!!). 
+//you also nee dthe random word function and the word list function so you only enter valid words. Good liuck!.
