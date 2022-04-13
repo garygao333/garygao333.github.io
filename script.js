@@ -105,7 +105,7 @@ let row6bool = false;
   num = num+1;
   array1.push('Q');
     variable = variable + 1;
-  } else if (row5boool === true && variable === 4 || num <= 4) {
+  } else if (row5bool === true && variable === 4 || num <= 4) {
     number = array[num];
   console.log(num);
   number.innerHTML = "Q";
@@ -118,7 +118,7 @@ let row6bool = false;
   number.innerHTML = "Q";
   num = num+1;
   array1.push('Q');
-    varuable = variable + 1;
+    variable = variable + 1;
   } else {
     console.log('dont, just dont');
   }
@@ -160,7 +160,7 @@ let row6bool = false;
   num = num+1;
   array1.push('W');
     variable = variable + 1;
-  } else if (row5boool === true && variable === 4 || num <= 4) {
+  } else if (row5bool === true && variable === 4 || num <= 4) {
     number = array[num];
   console.log(num);
   number.innerHTML = "W";
@@ -173,7 +173,7 @@ let row6bool = false;
   number.innerHTML = "W";
   num = num+1;
   array1.push('W');
-    varuable = variable + 1;
+    variable = variable + 1;
   } else {
     console.log('dont, just dont');
   }
@@ -215,7 +215,7 @@ let row6bool = false;
   num = num+1;
   array1.push('E');
     variable = variable + 1;
-  } else if (row5boool === true && variable === 4 || num <= 4) {
+  } else if (row5bool === true && variable === 4 || num <= 4) {
     number = array[num];
   console.log(num);
   number.innerHTML = "E";
@@ -228,7 +228,7 @@ let row6bool = false;
   number.innerHTML = "E";
   num = num+1;
   array1.push('E');
-    varuable = variable + 1;
+    variable = variable + 1;
   } else {
     console.log('dont, just dont');
   }
@@ -270,7 +270,7 @@ let row6bool = false;
   num = num+1;
   array1.push('R');
     variable = variable + 1;
-  } else if (row5boool === true && variable === 4 || num <= 4) {
+  } else if (row5bool === true && variable === 4 || num <= 4) {
     number = array[num];
   console.log(num);
   number.innerHTML = "R";
@@ -283,7 +283,7 @@ let row6bool = false;
   number.innerHTML = "R";
   num = num+1;
   array1.push('R');
-    varuable = variable + 1;
+    variable = variable + 1;
   } else {
     console.log('dont, just dont');
   }
@@ -325,7 +325,7 @@ let row6bool = false;
   num = num+1;
   array1.push('T');
     variable = variable + 1;
-  } else if (row5boool === true && variable === 4 || num <= 4) {
+  } else if (row5bool === true && variable === 4 || num <= 4) {
     number = array[num];
   console.log(num);
   number.innerHTML = "T";
@@ -338,7 +338,7 @@ let row6bool = false;
   number.innerHTML = "T";
   num = num+1;
   array1.push('T');
-    varuable = variable + 1;
+    variable = variable + 1;
   } else {
     console.log('dont, just dont');
   }
@@ -380,7 +380,7 @@ let row6bool = false;
   num = num+1;
   array1.push('Y');
     variable = variable + 1;
-  } else if (row5boool === true && variable === 4 || num <= 4) {
+  } else if (row5bool === true && variable === 4 || num <= 4) {
     number = array[num];
   console.log(num);
   number.innerHTML = "Y";
@@ -393,7 +393,7 @@ let row6bool = false;
   number.innerHTML = "Y";
   num = num+1;
   array1.push('Y');
-    varuable = variable + 1;
+    variable = variable + 1;
   } else {
     console.log('dont, just dont');
   }
@@ -435,7 +435,7 @@ let row6bool = false;
   num = num+1;
   array1.push('U');
     variable = variable + 1;
-  } else if (row5boool === true && variable === 4 || num <= 4) {
+  } else if (row5bool === true && variable === 4 || num <= 4) {
     number = array[num];
   console.log(num);
   number.innerHTML = "U";
@@ -448,7 +448,7 @@ let row6bool = false;
   number.innerHTML = "U";
   num = num+1;
   array1.push('U');
-    varuable = variable + 1;
+    variable = variable + 1;
   } else {
     console.log('dont, just dont');
   }
@@ -490,7 +490,7 @@ let row6bool = false;
   num = num+1;
   array1.push('I');
     variable = variable + 1;
-  } else if (row5boool === true && variable === 4 || num <= 4) {
+  } else if (row5bool === true && variable === 4 || num <= 4) {
     number = array[num];
   console.log(num);
   number.innerHTML = "I";
@@ -503,7 +503,7 @@ let row6bool = false;
   number.innerHTML = "I";
   num = num+1;
   array1.push('I');
-    varuable = variable + 1;
+    variable = variable + 1;
   } else {
     console.log('dont, just dont');
   }
@@ -545,7 +545,7 @@ let row6bool = false;
   num = num+1;
   array1.push('O');
     variable = variable + 1;
-  } else if (row5boool === true && variable === 4 || num <= 4) {
+  } else if (row5bool === true && variable === 4 || num <= 4) {
     number = array[num];
   console.log(num);
   number.innerHTML = "O";
@@ -558,7 +558,7 @@ let row6bool = false;
   number.innerHTML = "V";
   num = num+1;
   array1.push('V');
-    varuable = variable + 1;
+    variable = variable + 1;
   } else {
     console.log('dont, just dont');
   }
@@ -600,7 +600,7 @@ let row6bool = false;
   num = num+1;
   array1.push('P');
     variable = variable + 1;
-  } else if (row5boool === true && variable === 4 || num <= 4) {
+  } else if (row5bool === true && variable === 4 || num <= 4) {
     number = array[num];
   console.log(num);
   number.innerHTML = "P";
@@ -613,7 +613,7 @@ let row6bool = false;
   number.innerHTML = "P";
   num = num+1;
   array1.push('P');
-    varuable = variable + 1;
+    variable = variable + 1;
   } else {
     console.log('dont, just dont');
   }
@@ -655,7 +655,7 @@ let row6bool = false;
   num = num+1;
   array1.push('A');
     variable = variable + 1;
-  } else if (row5boool === true && variable === 4 || num <= 4) {
+  } else if (row5bool === true && variable === 4 || num <= 4) {
     number = array[num];
   console.log(num);
   number.innerHTML = "A";
@@ -668,7 +668,7 @@ let row6bool = false;
   number.innerHTML = "A";
   num = num+1;
   array1.push('A');
-    varuable = variable + 1;
+    variable = variable + 1;
   } else {
     console.log('dont, just dont');
   }
@@ -710,7 +710,7 @@ let row6bool = false;
   num = num+1;
   array1.push('S');
     variable = variable + 1;
-  } else if (row5boool === true && variable === 4 || num <= 4) {
+  } else if (row5bool === true && variable === 4 || num <= 4) {
     number = array[num];
   console.log(num);
   number.innerHTML = "S";
@@ -723,7 +723,7 @@ let row6bool = false;
   number.innerHTML = "S";
   num = num+1;
   array1.push('S');
-    varuable = variable + 1;
+    variable = variable + 1;
   } else {
     console.log('dont, just dont');
   }
@@ -765,7 +765,7 @@ let row6bool = false;
   num = num+1;
   array1.push('D');
     variable = variable + 1;
-  } else if (row5boool === true && variable === 4 || num <= 4) {
+  } else if (row5bool === true && variable === 4 || num <= 4) {
     number = array[num];
   console.log(num);
   number.innerHTML = "D";
@@ -778,7 +778,7 @@ let row6bool = false;
   number.innerHTML = "D";
   num = num+1;
   array1.push('D');
-    varuable = variable + 1;
+    variable = variable + 1;
   } else {
     console.log('dont, just dont');
   }
@@ -820,7 +820,7 @@ let row6bool = false;
   num = num+1;
   array1.push('F');
     variable = variable + 1;
-  } else if (row5boool === true && variable === 4 || num <= 4) {
+  } else if (row5bool === true && variable === 4 || num <= 4) {
     number = array[num];
   console.log(num);
   number.innerHTML = "F";
@@ -833,7 +833,7 @@ let row6bool = false;
   number.innerHTML = "F";
   num = num+1;
   array1.push('F');
-    varuable = variable + 1;
+    variable = variable + 1;
   } else {
     console.log('dont, just dont');
   }
@@ -875,7 +875,7 @@ let row6bool = false;
   num = num+1;
   array1.push('G');
     variable = variable + 1;
-  } else if (row5boool === true && variable === 4 || num <= 4) {
+  } else if (row5bool === true && variable === 4 || num <= 4) {
     number = array[num];
   console.log(num);
   number.innerHTML = "G";
@@ -888,7 +888,7 @@ let row6bool = false;
   number.innerHTML = "G";
   num = num+1;
   array1.push('G');
-    varuable = variable + 1;
+    variable = variable + 1;
   } else {
     console.log('dont, just dont');
   }
@@ -930,7 +930,7 @@ let row6bool = false;
   num = num+1;
   array1.push('H');
     variable = variable + 1;
-  } else if (row5boool === true && variable === 4 || num <= 4) {
+  } else if (row5bool === true && variable === 4 || num <= 4) {
     number = array[num];
   console.log(num);
   number.innerHTML = "H";
@@ -943,7 +943,7 @@ let row6bool = false;
   number.innerHTML = "H";
   num = num+1;
   array1.push('H');
-    varuable = variable + 1;
+    variable = variable + 1;
   } else {
     console.log('dont, just dont');
   }
@@ -985,7 +985,7 @@ let row6bool = false;
   num = num+1;
   array1.push('J');
     variable = variable + 1;
-  } else if (row5boool === true && variable === 4 || num <= 4) {
+  } else if (row5bool === true && variable === 4 || num <= 4) {
     number = array[num];
   console.log(num);
   number.innerHTML = "J";
@@ -998,7 +998,7 @@ let row6bool = false;
   number.innerHTML = "J";
   num = num+1;
   array1.push('J');
-    varuable = variable + 1;
+    variable = variable + 1;
   } else {
     console.log('dont, just dont');
   }
@@ -1040,7 +1040,7 @@ let row6bool = false;
   num = num+1;
   array1.push('K');
     variable = variable + 1;
-  } else if (row5boool === true && variable === 4 || num <= 4) {
+  } else if (row5bool === true && variable === 4 || num <= 4) {
     number = array[num];
   console.log(num);
   number.innerHTML = "K";
@@ -1053,7 +1053,7 @@ let row6bool = false;
   number.innerHTML = "K";
   num = num+1;
   array1.push('K');
-    varuable = variable + 1;
+    variable = variable + 1;
   } else {
     console.log('dont, just dont');
   }
@@ -1095,7 +1095,7 @@ let row6bool = false;
   num = num+1;
   array1.push('L');
     variable = variable + 1;
-  } else if (row5boool === true && variable === 4 || num <= 4) {
+  } else if (row5bool === true && variable === 4 || num <= 4) {
     number = array[num];
   console.log(num);
   number.innerHTML = "L";
@@ -1108,7 +1108,7 @@ let row6bool = false;
   number.innerHTML = "L";
   num = num+1;
   array1.push('L');
-    varuable = variable + 1;
+    variable = variable + 1;
   } else {
     console.log('dont, just dont');
   }
@@ -1150,7 +1150,7 @@ let row6bool = false;
   num = num+1;
   array1.push('Z');
     variable = variable + 1;
-  } else if (row5boool === true && variable === 4 || num <= 4) {
+  } else if (row5bool === true && variable === 4 || num <= 4) {
     number = array[num];
   console.log(num);
   number.innerHTML = "Z";
@@ -1163,7 +1163,7 @@ let row6bool = false;
   number.innerHTML = "Z";
   num = num+1;
   array1.push('Z');
-    varuable = variable + 1;
+    variable = variable + 1;
   } else {
     console.log('dont, just dont');
   }
@@ -1205,7 +1205,7 @@ let row6bool = false;
   num = num+1;
   array1.push('X');
     variable = variable + 1;
-  } else if (row5boool === true && variable === 4 || num <= 4) {
+  } else if (row5bool === true && variable === 4 || num <= 4) {
     number = array[num];
   console.log(num);
   number.innerHTML = "X";
@@ -1218,7 +1218,7 @@ let row6bool = false;
   number.innerHTML = "X";
   num = num+1;
   array1.push('X');
-    varuable = variable + 1;
+    variable = variable + 1;
   } else {
     console.log('dont, just dont');
   }
@@ -1260,7 +1260,7 @@ let row6bool = false;
   num = num+1;
   array1.push('C');
     variable = variable + 1;
-  } else if (row5boool === true && variable === 4 || num <= 4) {
+  } else if (row5bool === true && variable === 4 || num <= 4) {
     number = array[num];
   console.log(num);
   number.innerHTML = "C";
@@ -1273,7 +1273,7 @@ let row6bool = false;
   number.innerHTML = "C";
   num = num+1;
   array1.push('C');
-    varuable = variable + 1;
+    variable = variable + 1;
   } else {
     console.log('dont, just dont');
   }
@@ -1315,7 +1315,7 @@ let row6bool = false;
   num = num+1;
   array1.push('V');
     variable = variable + 1;
-  } else if (row5boool === true && variable === 4 || num <= 4) {
+  } else if (row5bool === true && variable === 4 || num <= 4) {
     number = array[num];
   console.log(num);
   number.innerHTML = "V";
@@ -1328,7 +1328,7 @@ let row6bool = false;
   number.innerHTML = "V";
   num = num+1;
   array1.push('V');
-    varuable = variable + 1;
+    variable = variable + 1;
   } else {
     console.log('dont, just dont');
   }
@@ -1370,7 +1370,7 @@ let row6bool = false;
   num = num+1;
   array1.push('B');
     variable = variable + 1;
-  } else if (row5boool === true && variable === 4 || num <= 4) {
+  } else if (row5bool === true && variable === 4 || num <= 4) {
     number = array[num];
   console.log(num);
   number.innerHTML = "B";
@@ -1383,7 +1383,7 @@ let row6bool = false;
   number.innerHTML = "B";
   num = num+1;
   array1.push('B');
-    varuable = variable + 1;
+    variable = variable + 1;
   } else {
     console.log('dont, just dont');
   }
@@ -1425,7 +1425,7 @@ let row6bool = false;
   num = num+1;
   array1.push('N');
     variable = variable + 1;
-  } else if (row5boool === true && variable === 4 || num <= 4) {
+  } else if (row5bool === true && variable === 4 || num <= 4) {
     number = array[num];
   console.log(num);
   number.innerHTML = "N";
@@ -1438,7 +1438,7 @@ let row6bool = false;
   number.innerHTML = "N";
   num = num+1;
   array1.push('N');
-    varuable = variable + 1;
+    variable = variable + 1;
   } else {
     console.log('dont, just dont');
   }
@@ -1488,7 +1488,7 @@ let row6bool = false;
   num = num+1;
   array1.push('M');
     variable1 = variable1 + 1;
-  } else if (row5boool === true && variable1 === 4 || num <= 4) {
+  } else if (row5bool === true && variable1 === 4 || num <= 4) {
     number = array[num];
   console.log(num);
   number.innerHTML = "M";
@@ -1517,7 +1517,7 @@ del.addEventListener('click', function onClick() {
 
 //Game
 
-let word = 'ZASDA';
+let word = 'DAIRY';
 
 let heading = document.getElementById('heading');
 
@@ -1554,6 +1554,7 @@ function generateFirstGuess() {
     console.log(array1);
     display.innerHTML = "Congrats, thats the answer";
     array1 = [];
+    array = [];
   } else {
     console.log("nope, thats not it");
     console.log(array1);
@@ -1569,6 +1570,7 @@ function generateSecondGuess() {
     console.log(array1);
     display.innerHTML = "Congrats, thats the answer";
     array1 = [];
+    array = [];
   } else {
     console.log("nope, thats not it");
     console.log(array1);
@@ -1584,6 +1586,7 @@ function generateThirdGuess() {
     console.log(array1);
     display.innerHTML = "Congrats, thats the answer";
     array1 = [];
+    array = [];
   } else {
     console.log("nope, thats not it");
     console.log(array1);
@@ -1599,6 +1602,7 @@ function generateFourthGuess() {
     console.log(array1);
     display.innerHTML = "Congrats, thats the answer";
     array1 = [];
+    array = [];
   } else {
     console.log("nope, thats not it");
     console.log(array1);
@@ -1614,6 +1618,7 @@ function generateFifthGuess() {
     console.log(array1);
     display.innerHTML = "Congrats, thats the answer";
     array1 = [];
+    array = [];
   } else {
     console.log("nope, thats not it");
     console.log(array1);
@@ -1630,6 +1635,7 @@ function generateSixthGuess() {
     console.log(array1);
     display.innerHTML = "Congrats, thats the answer";
     array1 = [];
+    array = [];
   } else {
     console.log("nope, thats not it");
     console.log(array1);
@@ -1637,6 +1643,8 @@ function generateSixthGuess() {
     array1 = [];
   }
 }
+
+//disable the varubael, if that does not work, and youhave tried the other varibale, you might jsut have to resort to the cloning(prob increase length by antoehr 100); 
 
 
 
