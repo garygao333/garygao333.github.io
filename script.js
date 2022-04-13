@@ -1565,6 +1565,11 @@ function generateFirstGuess() {
     console.log(array1);
     display.innerHTML = 'Sorry, thats not the answer';
     array1 = [];
+    s1.style.background = 'gray';
+    s2.style.background = 'gray';
+    s3.style.background = 'gray';
+    s4.style.background = 'gray';
+    s5.style.background = 'gray'; 
   }
 }
 
@@ -1586,6 +1591,11 @@ function generateSecondGuess() {
     console.log(array1);
     display.innerHTML = 'Sorry, thats not the answer';
     array1 = [];
+    s6.style.background = 'gray';
+    s7.style.background = 'gray';
+    s8.style.background = 'gray';
+    s9.style.background = 'gray';
+    s10.style.background = 'gray'; 
   }
 }
 
@@ -1607,6 +1617,11 @@ function generateThirdGuess() {
     console.log(array1);
     display.innerHTML = 'Sorry, thats not the answer';
     array1 = [];
+    s11.style.background = 'gray';
+    s12.style.background = 'gray';
+    s13.style.background = 'gray';
+    s14.style.background = 'gray';
+    s15.style.background = 'gray'; 
   }
 }
 
@@ -1628,6 +1643,11 @@ function generateFourthGuess() {
     console.log(array1);
     display.innerHTML = 'Sorry, thats not the answer';
     array1 = [];
+    s16.style.background = 'gray';
+    s17.style.background = 'gray';
+    s18.style.background = 'gray';
+    s19.style.background = 'gray';
+    s20.style.background = 'gray'; 
   }
 }
 
@@ -1649,6 +1669,11 @@ function generateFifthGuess() {
     console.log(array1);
     display.innerHTML = 'Sorry, thats not the answer';
     array1 = [];
+    s21.style.background = 'gray';
+    s22.style.background = 'gray';
+    s23.style.background = 'gray';
+    s24.style.background = 'gray';
+    s25.style.background = 'gray'; 
   }
 }
 
@@ -1672,6 +1697,11 @@ function generateSixthGuess() {
     display.innerHTML = 'Sorry, thats not the answer';
     array1 = [];
     display.innerHTML = "You Lose, the word is " + word;
+    s26.style.background = 'gray';
+    s27.style.background = 'gray';
+    s28.style.background = 'gray';
+    s29.style.background = 'gray';
+    s30.style.background = 'gray'; 
     }
 }
 
