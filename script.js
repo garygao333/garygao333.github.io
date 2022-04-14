@@ -1521,9 +1521,42 @@ let wordArr = ['DAIRY', 'CANAL', 'ZYGOT', 'BITCH', 'FUCKS', 'MOUSE'];
 let ivx = Math.floor(Math.random()*5);
 let word = wordArr[ivx];
 */
-var words = window.prompt("Enter a Five Letter Word");
+/*
+function generateWord() {
+  var words = window.prompt("Enter a Five Letter Word");
+  let word = words.toUpperCase();
+  if (word.length === 5) {
+    return word;
+  } else {
+    let word = window.prompt("That is not a valid word, enter another five letter word");
+    if (word.length === 5) {
+      word = word.toUpperCase();
+      return word;
+    } else {
+      heading.innerHTML = "Fuck you";
+    }
+  }
+}
+*/
 
-let word = words.toUpperCase();
+function generateWord() {
+  var words = window.prompt("Enter a Five Letter Word");
+  let word = words.toUpperCase();
+  if (word.length === 5) {
+    return word;
+  } else {
+    while(word.length != 5) {
+      word = window.prompt("That is not a valid word, enter another five letter word");
+    if (word.length === 5) {
+      word = word.toUpperCase();
+      return word;
+    }
+  }
+  }
+}
+
+
+word = generateWord(); 
 
 let heading = document.getElementById('heading');
 
