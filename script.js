@@ -1516,10 +1516,14 @@ del.addEventListener('click', function onClick() {
 
 
 //Game
-
+/*
 let wordArr = ['DAIRY', 'CANAL', 'ZYGOT', 'BITCH', 'FUCKS', 'MOUSE'];
 let ivx = Math.floor(Math.random()*5);
 let word = wordArr[ivx];
+*/
+var words = window.prompt("Enter a Five Letter Word");
+
+let word = words.toUpperCase();
 
 let heading = document.getElementById('heading');
 
